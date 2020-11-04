@@ -4,10 +4,11 @@
 
 { font-family: "raleway" ; 
 src: url("Raleway/static/Raleway-Regular.ttf");
-
-
-
 }
+
+
+
+
 
 .container
 {
@@ -28,7 +29,10 @@ body
 
     }
 h1 
-    {font-family: "Raleway" ;}
+    {
+        font-family: "Raleway" ;
+        font-size: 24px;
+    }
 
 h2 
     {
@@ -490,7 +494,7 @@ p
     width: 360px;
     height: 680px;
     display: grid;
-    grid-template-columns: 250px 50px ;
+    grid-template-columns: 290px 50px ;
     grid-template-rows: 55px 180px 180px 180px;
     grid-gap: 20px;
     justify-content: center;
@@ -498,7 +502,7 @@ p
 
 .TitreHebergementDroit
 {
-   
+   margin-left: 20px;
 }
 
 .IconeLienPop
