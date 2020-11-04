@@ -23,6 +23,7 @@ a
     text-decoration: none;
 }
 
+}
 body
     { font-family: "Raleway";
     margin:27.6px;
@@ -58,17 +59,27 @@ p
 
     }
 
+
 .Inscrire
     {
         padding: 80px;
+        color: #0065FC;
     }      
 
 .Hebergement
     {
         padding: 80px;
+        color: #0065FC;
+        
+       
+        
+
     }
 
-    
+.Activités
+    {
+        color: #0065FC;
+    }
 
 
 /* Section titre */
@@ -98,7 +109,7 @@ p
         text-align: center;
         border-top-left-radius: 10px 10px;
         border-bottom-left-radius: 10px 10px;
-        
+        width: 35px;
     
     }
     
@@ -112,11 +123,11 @@ p
         width: 250px;
         height: 40px;
         font-weight: 600;
-        font-size: 16px
+        font-size: 16px;
+        
     
     }
     
-
 
 .RechercheBouton
     {
@@ -131,7 +142,7 @@ p
         height: 47px;
         display: flex;
         align-items: center;
-        
+        font-family: "Raleway";
     }
 
         
@@ -146,15 +157,10 @@ p
     display: flex;
     flex-wrap: wrap;
     margin-top: 40px;
-   
     height: 60px;
     align-items: center;
-    
-    
-    
     font-weight: 600;
     font-size: 16px;
-    
     margin-left: 20px;
     
 }
@@ -169,7 +175,7 @@ p
     border-bottom-left-radius: 60px;
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
-    width: 200px;
+    width: 180px;
     height: 47px;
     margin-left: 40px;
 }
@@ -177,7 +183,6 @@ p
 .IconeEco
 {
     display: flex;
-    padding-top: 6px;
     color: #0065FC;
     border: none;
     background-color: #DEEBFF;
@@ -188,7 +193,7 @@ p
     border-top-left-radius: 50px ;
     border-bottom-left-radius: 50px ;
     width: 50px;
-    height: 45px;
+    height: 50px;
     
 }
 
@@ -210,14 +215,13 @@ p
     border-bottom-left-radius: 60px;
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
-    width: 200px;
+    width: 180px;
     height: 47px;
     margin-left: 40px;
 }
 .iconefamilial
 {
     display: flex;
-    padding-top: 6px;
     color: #0065FC;
     border: none;
     background-color: #DEEBFF;
@@ -228,7 +232,7 @@ p
     border-top-left-radius: 50px ;
     border-bottom-left-radius: 50px ;
     width: 50px;
-    height: 45px;
+    height: 50px;
 }
 
 .familialText
@@ -247,7 +251,7 @@ p
     border-bottom-left-radius: 60px;
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
-    width: 200px;
+    width: 180px;
     height: 47px;
     margin-left: 40px;
 }
@@ -255,7 +259,6 @@ p
 .iconeRomantique
 {
     display: flex;
-    padding-top: 6px;
     color: #0065FC;
     border: none;
     background-color: #DEEBFF;
@@ -266,7 +269,7 @@ p
     border-top-left-radius: 50px ;
     border-bottom-left-radius: 50px ;
     width: 50px;
-    height: 45px;
+    height: 50px;
 }
 
 .romantiqueTexte
@@ -285,7 +288,7 @@ p
     border-bottom-left-radius: 60px;
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
-    width: 200px;
+    width: 230px;
     height: 47px;
     margin-left: 40px;
 }
@@ -293,7 +296,7 @@ p
 .iconeAnimaux
 {
     display: flex;
-    padding-top: 6px;
+    
     color: #0065FC;
     border: none;
     background-color: #DEEBFF;
@@ -304,13 +307,15 @@ p
     border-top-left-radius: 50px ;
     border-bottom-left-radius: 50px ;
     width: 50px;
-    height: 45px;
+    height: 50px;
 }
 
-.animauxText
+.animauxTexte
 {
     font-weight: 600;
     font-size: 16px;
+    margin-left: 20px;
+    
    
 }
 .FooterFiltre
@@ -352,6 +357,7 @@ p
 {
     color: #0065FC;
     padding-top: 5px;
+    font-size: 10px;
 
 }
 
@@ -411,8 +417,7 @@ p
 {
     
     flex-wrap: wrap;
-    -moz-border-radius:20px;
-    -webkit-border-radius:20px;
+    border-radius: 20px 20px 0px 0px;
     width: 200px;
     height: 150px;
     
@@ -539,8 +544,7 @@ p
 {
     float: left;
     flex-wrap: wrap;
-    -moz-border-radius:20px;
-    -webkit-border-radius:20px;
+    border-radius: 20px 0px 0px 20px;
     width: 120px;
     height: 120px;
 }
@@ -550,6 +554,7 @@ p
     color: #0065FC;
     text-align: center;
     padding-top: 10px;
+    font-size: 10px;
     
 }
 
@@ -655,7 +660,6 @@ p
 {
    
     order: 2;
-
     flex-wrap: wrap;
     justify-self: center;
     border-radius: 20px 20px;
@@ -669,8 +673,8 @@ p
 .IlesDeFriou
 {
     order: 3;
-grid-row: 2;
-grid-column: 2;
+    grid-row: 2;
+    grid-column: 2;
     flex-wrap: wrap;
     justify-self: center;
     border-radius: 20px 20px;
@@ -684,8 +688,6 @@ grid-column: 2;
 .ParcNational
 {
     order: 4;
-    
-    
     flex-wrap: wrap;
     justify-self: center;
     border-radius: 20px 20px;
@@ -699,7 +701,6 @@ grid-column: 2;
 .NotreDame
 {
     order: 5;
-
     flex-wrap: wrap;
     justify-self: center;
     border-radius: 20px 20px;
@@ -712,18 +713,17 @@ grid-column: 2;
 
 .ParcLongchamp
 {
-order: 6;
-
-flex-wrap: wrap;
-justify-self: center;
-border-radius: 20px 20px;
-border: 2px white solid;
-background-color: white;
-width: 260px;
-height: 220px;
-grid-row: 2;
-grid-column: 4;
-box-shadow: 1px 1px 12px #F2F2F2;
+    order: 6;
+    flex-wrap: wrap;
+    justify-self: center;
+    border-radius: 20px 20px;
+    border: 2px white solid;
+    background-color: white;
+    width: 260px;
+    height: 220px;
+    grid-row: 2;
+    grid-column: 4;
+    box-shadow: 1px 1px 12px #F2F2F2;
 }
 
 .TitreImageActivites
