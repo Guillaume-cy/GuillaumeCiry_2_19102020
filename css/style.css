@@ -25,6 +25,7 @@ a
 }
 
 
+
 body
     { font-family: "Raleway";
     margin:27.6px;
@@ -67,10 +68,16 @@ p
         color: #0065FC;
         height: 150px;
         padding: 35px;
+        
+        
 
     }
    
 
+.MenuTopDroit:hover
+    {
+        border-top: 3px #0065FC solid ;
+    }
 
 
 /* Section titre */
@@ -352,6 +359,11 @@ p
     font-size: 10px;
     padding-left: 15px;
 
+}
+
+.far
+{
+    color:#F2F2F2;
 }
 
 .BlockPrincipal
@@ -764,8 +776,7 @@ p
     grid-row: 150px;
     flex-wrap: wrap;
     justify-items: center;
-    color: black;
-
+    color: black;  
 }
 
     
@@ -781,6 +792,27 @@ li
 {
     margin-bottom: 10px;
     
-    
+
 }
 
+
+@media screen and (min-width: 768px)
+{
+
+
+
+}
+
+@media screen and (min-width: 1024px)
+{
+
+
+
+}
+
+@media screen and (min-width: 1440px)
+{
+
+
+
+}
