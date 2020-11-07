@@ -3,7 +3,7 @@
 
 
 { font-family: "raleway" ; 
-src: url("Raleway/static/Raleway-Regular.ttf");
+src: url("fonts/Raleway/static/Raleway-Regular.ttf");
 }
 
 
@@ -22,14 +22,17 @@ a
 {
     text-decoration: none;
     color: grey;
+    
 }
 
 
 
 body
-    { font-family: "Raleway";
-    margin:27.6px;
-
+    { 
+        font-family: "Raleway";
+        margin:27.6px;
+        
+        
     }
 h1 
     {
@@ -44,17 +47,26 @@ h2
     }
 
 p
-    { font-family: "Raleway" ;}
+    { font-family: "Raleway";}
 
 
 
 /* Header */
+.EnTete
+    {
+        height: 100px;
+        width: 1200px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
 .logo
     {
         height: 100px;
+        width: 300px;
         font-weight: bold;
         display: flex;
-        justify-content: flex-end;
+        
         justify-content: space-between;
         align-items: center; 
         flex-wrap: wrap; 
@@ -62,19 +74,71 @@ p
 
     }
 
-.MenuTopDroit
+.NavTop
+    {
+        height: 100px;
+        width: 900px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+
+.MenutopDroit
+    {   
+        color: #0065FC;
+        height: 100px;
+        width: 600px;
+        display: flex;
+    flex-wrap: wrap;
+     
+        
+        
+    }  
+
+
+.Maison
     {
         
         color: #0065FC;
-        height: 150px;
-        padding: 35px;
+        padding: 50px;
         
-        
+    
+   
 
     }
    
+.Act
+    {
+        
+        color: #0065FC;
+        padding: 50px;
+   
+        
 
-.MenuTopDroit:hover
+    }
+
+.Ins
+    {
+        
+        color: #0065FC;
+        padding: 50px;
+    
+
+    }
+
+.Ins:hover
+    {
+        border-top: 3px #0065FC solid ;
+    }
+
+    .Maison:hover
+    {
+        border-top: 3px #0065FC solid ;
+    }
+
+    .Act:hover
     {
         border-top: 3px #0065FC solid ;
     }
@@ -672,6 +736,16 @@ p
     object-fit: cover;
 
 }
+
+.ImageMoyenne
+{
+    border-radius:20px 20px 0px 0px;
+    width: 260px;
+    height: 200px;
+    column-gap: 20px;
+    object-fit: cover;
+}
+
 .ImageEtroite
 {
     border-radius:20px 20px 0px 0px;
@@ -681,6 +755,14 @@ p
     object-fit: cover;
 }
 
+.ImageTresEtroite
+{
+    border-radius:20px 20px 0px 0px;
+    width: 260px;
+    height: 150px;
+    column-gap: 20px;
+    object-fit: cover;
+}
 
 .FortDePomegues
 {
@@ -692,7 +774,7 @@ p
     border: 2px white solid;
     background-color: white;
     width: 260px;
-    height: 220px;
+    height: 250px;
     box-shadow: 1px 1px 12px#F2F2F2;
 }
 
@@ -707,8 +789,10 @@ p
     border: 2px white solid;
     background-color: white;
     width: 260px;
-    height: 220px;
+    height: 200px;
     box-shadow: 1px 1px 12px #F2F2F2;
+    margin-top: 20px;
+    
 }
 
 .ParcNational
@@ -796,21 +880,24 @@ li
 }
 
 
-@media screen and (min-width: 768px)
+@media screen and (max-width: 768px)
 {
+    
+    
+
+}
+
+@media screen and (max-width: 1024px)
+{
+
+    
+    
 
 
 
 }
 
-@media screen and (min-width: 1024px)
-{
-
-
-
-}
-
-@media screen and (min-width: 1440px)
+@media screen and (max-width: 1440px)
 {
 
 
