@@ -902,9 +902,7 @@ li
     {
     
     max-width: 750px;
-    margin: auto;
-    width: 100%;
-
+    
     }
 
     body
@@ -1032,6 +1030,12 @@ p
     border-top: 3px #0065FC solid ;
 }
 
+/* Section titre */
+.titre
+    {
+        margin-top: 30px;
+        margin-left: 10px;
+    }   
 
     /* Section recherche */
 .BlockRecherche
@@ -1105,13 +1109,12 @@ p
 
     {
     
-    
-    height: 600px;
+    border: none;
+    height: 250px;
     width: 700px;
-    border: 3px #DEEBFF solid;
-    display: flex;
-    flex-wrap: wrap;
-    
+    display: grid;
+    grid-template-columns: 350px 300px;
+    grid-template-rows: 60px 60px 60px 60px;
     font-weight: 600;
     font-size: 16px;
    
@@ -1120,28 +1123,33 @@ p
 
     .TitreFiltre
     {
-        width: 300px;
-       
+        width: 600px;
+        flex-wrap: wrap;
+        grid-column: 1;
+        grid-row: 1;
+        grid-column: 1/2 span;
+        margin-left: 15px;
     }
 
     .Economie
 {
-    display: flex;
-    align-items: center;
-    border: 2px #F2F2F2 solid;    
+    
+    
+    border: 1px #F2F2F2 solid;    
     border-top-left-radius: 60px ;
     border-bottom-left-radius: 60px;
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
-    width: 180px;
+    width: 250px;
     height: 47px;
-    margin-left: 40px;
+    margin-left: 10px;
+    
     
 }
 
 .IconeEco
 {
-    display: flex;
+    
     color: #0065FC;
     border: none;
     background-color: #DEEBFF;
@@ -1167,16 +1175,16 @@ p
 
 .familial
 {
-    display: flex;
-    align-items: center;
-    border: 2px #F2F2F2 solid;    
+    
+    
+    border: 1px #F2F2F2 solid;    
     border-top-left-radius: 60px ;
     border-bottom-left-radius: 60px;
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
-    width: 180px;
+    width: 200px;
     height: 47px;
-    margin-left: 40px;
+    
 }
 .iconefamilial
 {
@@ -1203,16 +1211,17 @@ p
 
 .romantique
 {
-    display: flex;
-    align-items: center;
-    border: 2px #F2F2F2 solid;    
+    
+    
+    border: 1px #F2F2F2 solid;    
     border-top-left-radius: 60px ;
     border-bottom-left-radius: 60px;
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
-    width: 180px;
+    width: 200px;
     height: 47px;
-    margin-left: 40px;
+    margin-left: 10px;
+    
 }
 
 .iconeRomantique
@@ -1240,16 +1249,20 @@ p
 
 .animaux
 {
-    display: flex;
-    align-items: center;
-    border: 2px #F2F2F2 solid;    
+   
+    
+    border: 1px #F2F2F2 solid;    
     border-top-left-radius: 60px ;
     border-bottom-left-radius: 60px;
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
-    width: 230px;
+    width: 250px;
     height: 47px;
-    margin-left: 40px;
+    grid-column: 1;
+    grid-row: 4;
+    grid-column: 1/2 span;
+    margin-left: 10px;
+    
 }
 
 .iconeAnimaux
@@ -1358,7 +1371,7 @@ p
     background-color: white;
     width: 650px;
     grid-column: 1;
-    height: 230px;
+    height: 240px;
     box-shadow: 1px 1px 12px#F2F2F2;
     
    
@@ -1384,7 +1397,7 @@ p
 
     .imageText
     {
-    font-size: 12px;
+    font-size: 16px;
     padding-left: 15px;
     }
 
@@ -1398,7 +1411,7 @@ p
     border: 4px white solid;
     background-color: white;
     width: 650px;
-    height: 230px;
+    height: 240px;
     box-shadow: 1px 1px 12px#F2F2F2;
     }
 
@@ -1412,7 +1425,7 @@ p
     border: 4px white solid;
     background-color: white;
     width: 650px;
-    height: 230px;
+    height: 240px;
     box-shadow: 1px 1px 12px#F2F2F2;
     }   
     .HotelMer
@@ -1425,7 +1438,7 @@ p
     border: 4px white solid;
     background-color: white;
     width: 650px;
-    height: 230px;
+    height: 240px;
     box-shadow: 1px 1px 12px#F2F2F2;
     }
 
@@ -1439,7 +1452,7 @@ p
     border: 4px white solid;
     background-color: white;
     width: 650px;
-    height: 230px;
+    height: 240px;
     box-shadow: 1px 1px 12px#F2F2F2;
     }
 
@@ -1453,7 +1466,7 @@ p
     border: 4px white solid;
     background-color: white;
     width: 650px;
-    height: 230px;
+    height: 240px;
     box-shadow: 1px 1px 12px#F2F2F2;
     
 }
@@ -1513,7 +1526,7 @@ p
 .ImageTextDroit
 {
     
-    font-size: 12px;
+    font-size: 16px;
     margin-left: 10px;
     padding-left: 15px;
     display: grid;
@@ -1808,9 +1821,5 @@ li
 
 }
 
-@media screen and (max-width: 1440px)
-{
-
-
-
-}
+@media screen and (max-width: 1440px) 
+{}
