@@ -870,7 +870,7 @@ li
 }
 
 
-@media screen and (min-width: 600px) and (max-width: 768px)
+@media screen and (max-width: 768px)
 {
     
 
@@ -1285,6 +1285,7 @@ p
 {
    
     margin-left: 15px;
+    
 }
     
 /*block gauche hebergement et populaire */
