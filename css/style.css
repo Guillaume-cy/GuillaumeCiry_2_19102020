@@ -221,7 +221,7 @@ p
 .Filtres
 
 {
-    border: 3px #DEEBFF solid;
+    
     height: 100px;
     display: flex;
     flex-wrap: wrap;
@@ -352,6 +352,7 @@ p
     font-weight: 600;
     font-size: 16px;
     margin-left: 15px;
+    color: black;
 }
 
 .animaux
@@ -894,7 +895,7 @@ li
 }
 
 
-@media screen and (max-width: 750px)
+@media screen and (min-width: 600px) and (max-width: 750px)
 {
     
 
@@ -1018,16 +1019,19 @@ p
 .Ins:hover
 {
     border-top: 3px #0065FC solid ;
+    
 }
 
 .Maison:hover
 {
-    border-top: 3px #0065FC solid ;
+    border-bottom: 3px #0065FC solid ;
+    border-top: none;
 }
 
 .Act:hover
 {
-    border-top: 3px #0065FC solid ;
+    border-bottom: 3px #0065FC solid ;
+    border-top: none;
 }
 
 /* Section titre */
@@ -1093,7 +1097,7 @@ p
     border-top-right-radius: 10px 10px;
     border-bottom-right-radius: 10px 10px;
     display: flex;
-    width: 50px;
+    width: 110px;
     height: 47px;
     
     
@@ -1287,6 +1291,7 @@ p
     font-weight: 600;
     font-size: 16px;
     margin-left: 20px;
+    color: black;
     
    
 }
