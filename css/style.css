@@ -889,179 +889,179 @@ li
         
     }
   
-h1 
+    h1 
     {
         font-family: "Raleway" ;
         font-size: 24px;
        
     }
 
-h2 
+    h2 
     {
         font-size: 14px;
         display: grid ;
     }
 
-p
+    p
     { font-family: "Raleway";}
 
 
-/* Header */
+    /* Header */
 
-.Header
-{
-    width: 650px;
-    /*A Ajuster */
+    .Header
+    {
+        width: 650px;
+        /*A Ajuster */
+        
+    }
+
+
+    .EnTete
+    {
+        height: 240px;
+        width: 650px;
+        display: grid;
+        grid-template-columns: 300px 300px ;
+        grid-template-rows:  150px 150px;
+
+    }
+
+    .logo
+    {
+        height: 100px;
+        width: 100px;
+        font-weight: bold;
+        display: grid;
+        flex-wrap: wrap; 
+        color: #0065FC;
+        
+    }
+
+
+
+    .Maison
+    {
+        
+        color: #0065FC;
+        margin-left: 0px;
+        display: grid;
+        grid-column: 1;
+        grid-row: 2;
+        justify-content: center;
+        width: 220px;
+
+    }
+
+    .Act
+    {
+        
+        color: #0065FC;
+        justify-content: center;
+        display: grid;
+        grid-row: 2;
+        grid-column: 2;
+        width: 220px;
     
-}
+    }
+    .Ins
+    {
+        
+        color: #0065FC;
+        justify-content: end;
+        display: grid;
+        grid-row: 1;
+        grid-column: 2;
+        width: 220px;
+        
+    }
 
+    .Ins:hover
+    {
+        border-top: 3px #0065FC solid ;
+        
+    }
 
-.EnTete
-{
-    height: 240px;
-    width: 650px;
-    display: grid;
-    grid-template-columns: 300px 300px ;
-    grid-template-rows:  150px 150px;
+    .Maison:hover
+    {
+        border-bottom: 3px #0065FC solid ;
+        border-top: none;
+    }
 
-}
+    .Act:hover
+    {
+        border-bottom: 3px #0065FC solid ;
+        border-top: none;
+    }
 
-.logo
-{
-    height: 100px;
-    width: 100px;
-    font-weight: bold;
-    display: grid;
-    flex-wrap: wrap; 
-    color: #0065FC;
-    
-}
+    /* Section titre */
+    .titre
+        {
+            margin-top: 30px;
+            margin-left: 10px;
+        }   
 
-
-
-.Maison
-{
-    
-    color: #0065FC;
-    margin-left: 0px;
-    display: grid;
-    grid-column: 1;
-    grid-row: 2;
-    justify-content: center;
-    width: 220px;
-
-}
-
-.Act
-{
-    
-    color: #0065FC;
-    justify-content: center;
-    display: grid;
-    grid-row: 2;
-    grid-column: 2;
-    width: 220px;
-   
-}
-.Ins
-{
-    
-    color: #0065FC;
-    justify-content: end;
-    display: grid;
-    grid-row: 1;
-    grid-column: 2;
-    width: 220px;
-    
-}
-
-.Ins:hover
-{
-    border-top: 3px #0065FC solid ;
-    
-}
-
-.Maison:hover
-{
-    border-bottom: 3px #0065FC solid ;
-    border-top: none;
-}
-
-.Act:hover
-{
-    border-bottom: 3px #0065FC solid ;
-    border-top: none;
-}
-
-/* Section titre */
-.titre
+        /* Section recherche */
+    .BlockRecherche
     {
         margin-top: 30px;
-        margin-left: 10px;
-    }   
+        display: flex;
+        border: 1px #F2F2F2 solid;
+        border-top-left-radius: 20px ;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        width: 650px;
+    }
+    .IconeRecherche
+    {
+        background-color: #F2F2F2;
+        padding: 12px 12px;
+        text-align: center;
+        border-top-left-radius: 10px 10px;
+        border-bottom-left-radius: 10px 10px;
+        width: 35px;
 
-    /* Section recherche */
-.BlockRecherche
-{
-    margin-top: 30px;
-    display: flex;
-    border: 1px #F2F2F2 solid;
-    border-top-left-radius: 20px ;
-    border-bottom-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    width: 650px;
-}
-.IconeRecherche
-{
-    background-color: #F2F2F2;
-    padding: 12px 12px;
-    text-align: center;
-    border-top-left-radius: 10px 10px;
-    border-bottom-left-radius: 10px 10px;
-    width: 35px;
-
-}
-.RechercheEntrer::placeholder
-{
- color: black;
-}
+    }
+    .RechercheEntrer::placeholder
+    {
+    color: black;
+    }
 
 
 
-.RechercheEntrer
+    .RechercheEntrer
 
-{
+    {
 
-    border: none;
-    padding-left: 15px; 
-    padding-top: 5px;
-    width: 600px;
-    height: 40px;
-    font-weight: 600;
-    font-size: 16px;
-    
-    
-    
+        border: none;
+        padding-left: 15px; 
+        padding-top: 5px;
+        width: 600px;
+        height: 40px;
+        font-weight: 600;
+        font-size: 16px;
+        
+        
+        
 
-}
+    }
 
 
-.RechercheBouton
-{
-    background-color: #0065FC;
-    color:white;
-    cursor: pointer;
-    border: none;
-    border-top-right-radius: 10px 10px;
-    border-bottom-right-radius: 10px 10px;
-    display: flex;
-    width: 110px;
-    height: 47px;
-    
-    
-    font-family: "Raleway";
-}
+    .RechercheBouton
+    {
+        background-color: #0065FC;
+        color:white;
+        cursor: pointer;
+        border: none;
+        border-top-right-radius: 10px 10px;
+        border-bottom-right-radius: 10px 10px;
+        display: flex;
+        width: 110px;
+        height: 47px;
+        
+        
+        font-family: "Raleway";
+    }
 
 
 
@@ -1095,200 +1095,200 @@ p
     }
 
     .Economie
-{
-    
-    
-    border: 1px #F2F2F2 solid;    
-    border-top-left-radius: 60px ;
-    border-bottom-left-radius: 60px;
-    border-top-right-radius: 60px;
-    border-bottom-right-radius: 60px;
-    width: 250px;
-    height: 47px;
-    margin-left: 10px;
-    
-    
-}
+    {
+        
+        
+        border: 1px #F2F2F2 solid;    
+        border-top-left-radius: 60px ;
+        border-bottom-left-radius: 60px;
+        border-top-right-radius: 60px;
+        border-bottom-right-radius: 60px;
+        width: 250px;
+        height: 47px;
+        margin-left: 10px;
+        
+        
+    }
 
-.IconeEco
-{
-    
-    color: #0065FC;
-    border: none;
-    background-color: #DEEBFF;
-    justify-content: center;
-    align-items: center;
-    border-top-right-radius: 50px ;
-    border-bottom-right-radius: 50px;
-    border-top-left-radius: 50px ;
-    border-bottom-left-radius: 50px ;
-    width: 50px;
-    height: 50px;
-    
-}
+    .IconeEco
+    {
+        
+        color: #0065FC;
+        border: none;
+        background-color: #DEEBFF;
+        justify-content: center;
+        align-items: center;
+        border-top-right-radius: 50px ;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px ;
+        border-bottom-left-radius: 50px ;
+        width: 50px;
+        height: 50px;
+        
+    }
 
-.EconomieText
-{
-    font-weight: 600;
-    font-size: 16px;
-    margin-left: 15px;
-    
-}
+    .EconomieText
+    {
+        font-weight: 600;
+        font-size: 16px;
+        margin-left: 15px;
+        
+    }
 
 
-.familial
-{
-    
-    
-    border: 1px #F2F2F2 solid;    
-    border-top-left-radius: 60px ;
-    border-bottom-left-radius: 60px;
-    border-top-right-radius: 60px;
-    border-bottom-right-radius: 60px;
-    width: 200px;
-    height: 47px;
-    
-}
-.iconefamilial
-{
-    display: flex;
-    color: #0065FC;
-    border: none;
-    background-color: #DEEBFF;
-    justify-content: center;
-    align-items: center;
-    border-top-right-radius: 50px ;
-    border-bottom-right-radius: 50px;
-    border-top-left-radius: 50px ;
-    border-bottom-left-radius: 50px ;
-    width: 50px;
-    height: 50px;
-}
+    .familial
+    {
+        
+        
+        border: 1px #F2F2F2 solid;    
+        border-top-left-radius: 60px ;
+        border-bottom-left-radius: 60px;
+        border-top-right-radius: 60px;
+        border-bottom-right-radius: 60px;
+        width: 200px;
+        height: 47px;
+        
+    }
+    .iconefamilial
+    {
+        display: flex;
+        color: #0065FC;
+        border: none;
+        background-color: #DEEBFF;
+        justify-content: center;
+        align-items: center;
+        border-top-right-radius: 50px ;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px ;
+        border-bottom-left-radius: 50px ;
+        width: 50px;
+        height: 50px;
+    }
 
-.familialText
-{
-    font-weight: 600;
-    font-size: 16px;
-    margin-left: 15px;
-}
+    .familialText
+    {
+        font-weight: 600;
+        font-size: 16px;
+        margin-left: 15px;
+    }
 
-.romantique
-{
-    
-    
-    border: 1px #F2F2F2 solid;    
-    border-top-left-radius: 60px ;
-    border-bottom-left-radius: 60px;
-    border-top-right-radius: 60px;
-    border-bottom-right-radius: 60px;
-    width: 200px;
-    height: 47px;
-    margin-left: 10px;
-    
-}
+    .romantique
+    {
+        
+        
+        border: 1px #F2F2F2 solid;    
+        border-top-left-radius: 60px ;
+        border-bottom-left-radius: 60px;
+        border-top-right-radius: 60px;
+        border-bottom-right-radius: 60px;
+        width: 200px;
+        height: 47px;
+        margin-left: 10px;
+        
+    }
 
-.iconeRomantique
-{
-    display: flex;
-    color: #0065FC;
-    border: none;
-    background-color: #DEEBFF;
-    justify-content: center;
-    align-items: center;
-    border-top-right-radius: 50px ;
-    border-bottom-right-radius: 50px;
-    border-top-left-radius: 50px ;
-    border-bottom-left-radius: 50px ;
-    width: 50px;
-    height: 50px;
-}
+    .iconeRomantique
+    {
+        display: flex;
+        color: #0065FC;
+        border: none;
+        background-color: #DEEBFF;
+        justify-content: center;
+        align-items: center;
+        border-top-right-radius: 50px ;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px ;
+        border-bottom-left-radius: 50px ;
+        width: 50px;
+        height: 50px;
+    }
 
-.romantiqueTexte
-{
-    font-weight: 600;
-    font-size: 16px;
-    margin-left: 15px;
-}
+    .romantiqueTexte
+    {
+        font-weight: 600;
+        font-size: 16px;
+        margin-left: 15px;
+    }
 
-.animaux
-{
-   
+    .animaux
+    {
     
-    border: 1px #F2F2F2 solid;    
-    border-top-left-radius: 60px ;
-    border-bottom-left-radius: 60px;
-    border-top-right-radius: 60px;
-    border-bottom-right-radius: 60px;
-    width: 250px;
-    height: 47px;
-    grid-column: 1;
-    grid-row: 4;
-    grid-column: 1/2 span;
-    margin-left: 10px;
-    
-}
+        
+        border: 1px #F2F2F2 solid;    
+        border-top-left-radius: 60px ;
+        border-bottom-left-radius: 60px;
+        border-top-right-radius: 60px;
+        border-bottom-right-radius: 60px;
+        width: 250px;
+        height: 47px;
+        grid-column: 1;
+        grid-row: 4;
+        grid-column: 1/2 span;
+        margin-left: 10px;
+        
+    }
 
-.iconeAnimaux
-{
-    display: flex;
-    
-    color: #0065FC;
-    border: none;
-    background-color: #DEEBFF;
-    justify-content: center;
-    align-items: center;
-    border-top-right-radius: 50px ;
-    border-bottom-right-radius: 50px;
-    border-top-left-radius: 50px ;
-    border-bottom-left-radius: 50px ;
-    width: 50px;
-    height: 50px;
-}
+    .iconeAnimaux
+    {
+        display: flex;
+        
+        color: #0065FC;
+        border: none;
+        background-color: #DEEBFF;
+        justify-content: center;
+        align-items: center;
+        border-top-right-radius: 50px ;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px ;
+        border-bottom-left-radius: 50px ;
+        width: 50px;
+        height: 50px;
+    }
 
-.animauxTexte
-{
-    font-weight: 600;
-    font-size: 16px;
-    margin-left: 20px;
-    color: black;
+    .animauxTexte
+    {
+        font-weight: 600;
+        font-size: 16px;
+        margin-left: 20px;
+        color: black;
+        
     
-   
-}
-.FooterFiltre
-{
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 40px;
-    height: 60px;
-    align-items: center;
-  
-
-}
-
-.iconeFooter
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    color: #0065FC;
-    border: solid  #F2F2F2;
-    border-top-right-radius: 50px ;
-    border-bottom-right-radius: 50px;
-    border-top-left-radius: 50px ;
-    border-bottom-left-radius: 50px ;
-    width: 25px;
-    height: 25px;
-}
-
-.footerTexte
-{
-   
-    margin-left: 15px;
+    }
+    .FooterFiltre
+    {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 40px;
+        height: 60px;
+        align-items: center;
     
-}
+
+    }
+
+    .iconeFooter
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        color: #0065FC;
+        border: solid  #F2F2F2;
+        border-top-right-radius: 50px ;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px ;
+        border-bottom-left-radius: 50px ;
+        width: 25px;
+        height: 25px;
+    }
+
+    .footerTexte
+    {
     
-/*block gauche hebergement et populaire */
+        margin-left: 15px;
+        
+    }
+        
+    /*block gauche hebergement */
 
 
     .BlockPrincipal
@@ -1428,331 +1428,730 @@ p
     height: 240px;
     box-shadow: 1px 1px 12px#F2F2F2;
     
-}
+    }
 
-.footerHebergement
-{
-    order: 8;
-    width: 400px;
-    margin-left: 10px;
-    
-}
-
-
-    /*BlockDroit*/
-
-
-.BlockDroit
-{
-    order: 1;
-    flex-wrap: wrap;
-    background-color: #F2F2F2;
-    border-color: whitesmoke;
-    border-radius: 0px;
-    width: 700px;
-    height: 680px;
-    display: grid;
-    grid-template-columns: 300px 250px 50px ;
-    grid-template-rows: 55px 180px 180px 180px;
-    grid-gap: 20px;
-    justify-content: center;
-    
-}
-
-.TitreHebergementDroit
-{
-    margin-left: 10px;
-   grid-column: 1/2 span;
-   
-}
-
-.IconeLienPop
-{
-    justify-self: center;
-    margin-top: 25px;
-}
-
-.TitreImageDroit
-{
-    
-    
-    width: 250px;
-    grid-column: 2;
-    padding-left: 15px;
-    font-size: 19px;
-    
-}   
-
-.ImageTextDroit
-{
-    
-    font-size: 16px;
-    margin-left: 10px;
-    padding-left: 15px;
-    display: grid;
-    grid-column: 2;
-    
-    
-}
-
-.ImagePopulaire
-{
-    float: left;
-    flex-wrap: wrap;
-    border-radius: 20px 0px 0px 20px;
-    width: 200px;
-    height: 160px;
-    object-fit: cover;
-}
-
-.EtoileDroit
-{
-    color: #0065FC;
-    padding-top: 40px;
-    font-size: 10px;
-    padding-left: 215px;
-    
-}
-
-.HotelSoleilMatin
-{
-    flex-wrap: wrap;
-    justify-self: center;
-    border-radius: 20px 20px;
-    border: 4px white solid; 
-    width: 650px;
-    height: 160px;
-    grid-column: 1;
-    grid-row: 2;
-    grid-column: 1/3 span;
-
-}
-
-.AuCoeurDeLeau
-{
-    flex-wrap: wrap;
-    justify-self: center;
-    border-radius: 20px 20px;
-    border: 4px white solid;
-    width: 650px;
-    height: 160px;
-    grid-column: 1;
-    grid-row: 3;
-    grid-column: 1/3 span;
-
-}
-
-.HotelToutBleu
-{
-    flex-wrap: wrap;
-    justify-self: center;
-    border-radius: 20px 20px;
-    border: 4px white solid;
-    width: 650px;
-    height: 160px;
-    grid-column: 1;
-    grid-row: 4;
-    grid-column: 1/3 span;
-    
-}
-
-
-/*Acitivite*/
-
-
-.TitreSection
-{
-    margin-top: 30px;
-    margin-left: 10px;
-    
-    
-}
-
-.Activites
-{
-    display: grid;
-    display: flex;
-    width: 650px;
-    height: 1600px;
-    grid-template-columns: 650px;
-    grid-template-rows: 250px;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-}
-
-.VieuxPort
-{
-   
-    flex-wrap: wrap;
-    justify-self: center;
-    border-radius: 20px;
-    border: 1px white solid;
-    width: 650px;
-    height: 230px;
-    order: 1;
-    box-shadow: 1px 1px 12px #F2F2F2;
-}
-.ImageLongue
-{
-    
-    border-radius:20px 20px 0px 0px;
-    width: 650px;
-    height: 160px;
-    object-fit: cover;
-
-}
-
-.ImageMoyenne
-{
-    border-radius:20px 20px 0px 0px;
-    width: 650px;
-    height: 160px;
-    column-gap: 20px;
-    object-fit: cover;
-}
-
-.ImageEtroite
-{
-    border-radius:20px 20px 0px 0px;
-    width: 650px;
-    height: 160px;
-    column-gap: 20px;
-    object-fit: cover;
-}
-
-.ImageTresEtroite
-{
-    border-radius:20px 20px 0px 0px;
-    width: 650px;
-    height: 160px;
-    column-gap: 20px;
-    object-fit: cover;
-}
-
-.FortDePomegues
-{
-   
-    order: 2;
-    flex-wrap: wrap;
-    justify-self: center;
-    border-radius: 20px 20px;
-    border: 1px white solid;
-    width: 650px;
-    height: 230px;
-    box-shadow: 1px 1px 12px#F2F2F2;
-}
-
-.IlesDeFriou
-{
-    order: 3;
-    grid-row: 2;
-    grid-column: 2;
-    flex-wrap: wrap;
-    justify-self: center;
-    border-radius: 20px 20px;
-    border: 1px white solid;
-    width: 650px;
-    height: 230px;
-    box-shadow: 1px 1px 12px #F2F2F2;
-    margin-top: 20px;
-    
-}
-
-.ParcNational
-{
-    order: 4;
-    flex-wrap: wrap;
-    justify-self: center;
-    border-radius: 20px 20px;
-    border: 1px white solid;
-    width: 650px;
-    height: 230px;
-    box-shadow: 1px 1px 12px#F2F2F2;
-}
-
-.NotreDame
-{
-    order: 5;
-    flex-wrap: wrap;
-    justify-self: center;
-    border-radius: 20px 20px;
-    border: 1px white solid;
-    width: 650px;
-    height: 230px;
-    box-shadow: 1px 1px 12px#F2F2F2;
-}
-
-.ParcLongchamp
-{
-    order: 6;
-    flex-wrap: wrap;
-    justify-self: center;
-    border-radius: 20px 20px;
-    border: 1px white solid;
-    width: 650px;
-    height: 230px;
-    box-shadow: 1px 1px 12px #F2F2F2;
-}
-
-.TitreImageActivites
-{
-    margin-left: 20px;
-    font-size: 19px;
-    
-    
-}
-
-
-
-/* Footer */
-
-.PiedDePage
-{
-
-    background-color: #F2F2F2;
-    border: whitesmoke;
-    
-}
-
-.MenuPiedDePage
-{
-    display: grid;
-    grid-template-columns: 200px;
-    grid-template-rows: 180px;
-    flex-wrap: wrap;
-    color:black;  
-}
-
-    
-ul
-{
-    list-style-type: none;
-    padding: 0;
-    
+    .footerHebergement
+    {
+        order: 8;
+        width: 400px;
+        margin-left: 10px;
         
-}
+    }
 
-li
-{
-    margin-bottom: 10px;
+
+        /*BlockDroit*/
+
+
+    .BlockDroit
+    {
+        order: 1;
+        flex-wrap: wrap;
+        background-color: #F2F2F2;
+        border-color: whitesmoke;
+        border-radius: 0px;
+        width: 700px;
+        height: 680px;
+        display: grid;
+        grid-template-columns: 300px 250px 50px ;
+        grid-template-rows: 55px 180px 180px 180px;
+        grid-gap: 20px;
+        justify-content: center;
+        
+    }
+
+    .TitreHebergementDroit
+    {
+        margin-left: 10px;
+    grid-column: 1/2 span;
     
+    }
 
-}
+    .IconeLienPop
+    {
+        justify-self: center;
+        margin-top: 25px;
+    }
 
-.APropos
-{
-    margin-left: 10px;
+    .TitreImageDroit
+    {
+        
+        
+        width: 250px;
+        grid-column: 2;
+        padding-left: 15px;
+        font-size: 19px;
+        
+    }   
+
+    .ImageTextDroit
+    {
+        
+        font-size: 16px;
+        margin-left: 10px;
+        padding-left: 15px;
+        display: grid;
+        grid-column: 2;
+        
+        
+    }
+
+    .ImagePopulaire
+    {
+        float: left;
+        flex-wrap: wrap;
+        border-radius: 20px 0px 0px 20px;
+        width: 200px;
+        height: 160px;
+        object-fit: cover;
+    }
+
+    .EtoileDroit
+    {
+        color: #0065FC;
+        padding-top: 40px;
+        font-size: 10px;
+        padding-left: 215px;
+        
+    }
+
+    .HotelSoleilMatin
+    {
+        flex-wrap: wrap;
+        justify-self: center;
+        border-radius: 20px 20px;
+        border: 4px white solid; 
+        width: 650px;
+        height: 160px;
+        grid-column: 1;
+        grid-row: 2;
+        grid-column: 1/3 span;
+
+    }
+
+    .AuCoeurDeLeau
+    {
+        flex-wrap: wrap;
+        justify-self: center;
+        border-radius: 20px 20px;
+        border: 4px white solid;
+        width: 650px;
+        height: 160px;
+        grid-column: 1;
+        grid-row: 3;
+        grid-column: 1/3 span;
+
+    }
+
+    .HotelToutBleu
+    {
+        flex-wrap: wrap;
+        justify-self: center;
+        border-radius: 20px 20px;
+        border: 4px white solid;
+        width: 650px;
+        height: 160px;
+        grid-column: 1;
+        grid-row: 4;
+        grid-column: 1/3 span;
+        
+    }
+
+
+    /*Acitivite*/
+
+
+    .TitreSection
+    {
+        margin-top: 30px;
+        margin-left: 10px;
+        
+        
+    }
+
+    .Activites
+    {
+        display: grid;
+        display: flex;
+        width: 650px;
+        height: 1600px;
+        grid-template-columns: 650px;
+        grid-template-rows: 250px;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+    .VieuxPort
+    {
     
+        flex-wrap: wrap;
+        justify-self: center;
+        border-radius: 20px;
+        border: 1px white solid;
+        width: 650px;
+        height: 230px;
+        order: 1;
+        box-shadow: 1px 1px 12px #F2F2F2;
+    }
+    .ImageLongue
+    {
+        
+        border-radius:20px 20px 0px 0px;
+        width: 650px;
+        height: 160px;
+        object-fit: cover;
+
+    }
+
+    .ImageMoyenne
+    {
+        border-radius:20px 20px 0px 0px;
+        width: 650px;
+        height: 160px;
+        column-gap: 20px;
+        object-fit: cover;
+    }
+
+    .ImageEtroite
+    {
+        border-radius:20px 20px 0px 0px;
+        width: 650px;
+        height: 160px;
+        column-gap: 20px;
+        object-fit: cover;
+    }
+
+    .ImageTresEtroite
+    {
+        border-radius:20px 20px 0px 0px;
+        width: 650px;
+        height: 160px;
+        column-gap: 20px;
+        object-fit: cover;
+    }
+
+    .FortDePomegues
+    {
+    
+        order: 2;
+        flex-wrap: wrap;
+        justify-self: center;
+        border-radius: 20px 20px;
+        border: 1px white solid;
+        width: 650px;
+        height: 230px;
+        box-shadow: 1px 1px 12px#F2F2F2;
+    }
+
+    .IlesDeFriou
+    {
+        order: 3;
+        grid-row: 2;
+        grid-column: 2;
+        flex-wrap: wrap;
+        justify-self: center;
+        border-radius: 20px 20px;
+        border: 1px white solid;
+        width: 650px;
+        height: 230px;
+        box-shadow: 1px 1px 12px #F2F2F2;
+        margin-top: 20px;
+        
+    }
+
+    .ParcNational
+    {
+        order: 4;
+        flex-wrap: wrap;
+        justify-self: center;
+        border-radius: 20px 20px;
+        border: 1px white solid;
+        width: 650px;
+        height: 230px;
+        box-shadow: 1px 1px 12px#F2F2F2;
+    }
+
+    .NotreDame
+    {
+        order: 5;
+        flex-wrap: wrap;
+        justify-self: center;
+        border-radius: 20px 20px;
+        border: 1px white solid;
+        width: 650px;
+        height: 230px;
+        box-shadow: 1px 1px 12px#F2F2F2;
+    }
+
+    .ParcLongchamp
+    {
+        order: 6;
+        flex-wrap: wrap;
+        justify-self: center;
+        border-radius: 20px 20px;
+        border: 1px white solid;
+        width: 650px;
+        height: 230px;
+        box-shadow: 1px 1px 12px #F2F2F2;
+    }
+
+    .TitreImageActivites
+    {
+        margin-left: 20px;
+        font-size: 19px;
+        
+        
+    }
+
+
+
+    /* Footer */
+
+    .PiedDePage
+    {
+
+        background-color: #F2F2F2;
+        border: whitesmoke;
+        
+    }
+
+    .MenuPiedDePage
+    {
+        display: grid;
+        grid-template-columns: 200px;
+        grid-template-rows: 180px;
+        flex-wrap: wrap;
+        color:black;  
+    }
+
+        
+    ul
+    {
+        list-style-type: none;
+        padding: 0;
+        
+            
+    }
+
+    li
+    {
+        margin-bottom: 10px;
+        
+
+    }
+
+    .APropos
+    {
+        margin-left: 10px;
+        
+    }
+
+    .Assistance
+    {
+        margin-left: 10px;
+        align-items: baseline;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
 }
 
-.Assistance
+@media screen and (max-width: 480px)
 {
-    margin-left: 10px;
-    align-items: baseline;
-    display: flex;
-    flex-wrap: wrap;
-}
+    body
+    { 
+        font-family: "Raleway";
+        margin:0px;
+        
+        
+    }
+
+    .container
+    {
+    
+        max-width: 480px;
+    
+    }
+
+    /* Header */
+
+    .Header
+    {
+        width: 470px;
+        /*A Ajuster */
+        
+    }
 
 
+    .EnTete
+    {
+        height: 240px;
+        width: 470px;
+        grid-template-columns: 230px 230px ;
+        grid-template-rows:  150px 150px;
+
+    }
+
+    .logo
+    {
+        height: 100px;
+        width: 100px;
+       
+    }
+
+
+
+    .Maison
+    {
+        
+       
+        margin-left: 0px;
+        width: 120px;
+
+    }
+
+    .Act
+    {
+        
+        
+        width: 120px;
+    
+    }
+    .Ins
+    {
+        
+        width: 120px;
+        
+    }
+
+    
+    /*block recherche et filtre */
+    
+    .BlockRecherche
+    {  
+
+     width: 470px;
+
+    }
+
+    .Filtres
+
+    {
+    
+    
+     height: 250px;
+     width: 470px;
+     grid-template-columns: 250px 200px;
+     grid-template-rows: 60px 60px 60px 60px;
+    
+    }
+
+    .TitreFiltre
+    {
+        width: 470px;
+        margin-left: 15px;
+    }
+
+    .Economie
+    {    
+        width: 190px;
+        margin-left: 10px;
+
+    }
+
+
+    .EconomieText
+    {
+        font-weight: 600;
+        font-size: 16px;
+        margin-left: 15px;
+        
+    }
+
+
+    .familial
+    {
+        width: 200px;
+        height: 47px;
+        margin-left: 0px;
+    }
+
+    .familialText
+    {
+        font-weight: 600;
+        font-size: 16px;
+        margin-left: 15px;
+    }
+
+    .romantique
+    {
+        width: 200px;
+        margin-left: 10px;
+        
+    }
+
+
+    .romantiqueTexte
+    {
+        font-weight: 600;
+        font-size: 16px;
+        margin-left: 15px;
+    }
+
+    .animaux
+    {
+        width: 250px;
+        margin-left: 10px;
+        
+    }
+
+
+
+    .animauxTexte
+    {
+        font-weight: 600;
+        font-size: 16px;
+        margin-left: 20px;
+        
+    }
+
+    .FooterFiltre
+    {
+        width: 480px;
+
+    }
+
+    /* block droit */
+
+    .BlockDroit
+    {
+        
+        width: 470px;
+        grid-template-columns: 150px 250px 50px ;
+        
+        
+    }
+
+    .ImagePopulaire
+    {
+        
+        width: 150px;
+    
+    }
+
+    .EtoileDroit
+    {
+        
+        padding-top: 40px;
+        font-size: 10px;
+        padding-left: 165px;
+        
+    }
+
+    .HotelSoleilMatin
+    {
+        
+        width: 450px;
+        height: 160px;
+        
+
+    }
+
+    .AuCoeurDeLeau
+    {
+    
+        width: 450px;
+        height: 160px;
+    
+    }
+
+    .HotelToutBleu
+    {
+    
+        width: 450px;
+        height: 160px;
+        
+    }
+
+    /*bloc gauche*/
+
+    .BlockPrincipal
+    {
+    
+        grid-template-columns: 470px ;
+
+    }
+
+
+    .BlockGauche
+    {
+    
+        width: 470px;
+        height: 2000px;
+        grid-template-columns: 470px;
+    
+    }
+
+    .TitreHebergement
+    {
+      
+       width: 450px;
+      
+    }
+    .AubergeCannebiere
+    {
+    
+        width: 450px;
+   
+    }
+
+    .imageHebergement
+    {
+    
+        width: 450px;
+    
+    }
+
+
+    .HotelPort
+    {
+    
+        width: 450px;
+    
+    }
+
+    .HotelMouettes
+    {
+
+        width: 450px;
+   
+    }   
+    .HotelMer
+    {
+    
+        width: 450px;
+    
+    }
+
+    .AubergePanier
+    {   
+    
+        width: 450px;
+    
+    }
+
+    .HotelAmina
+    {
+
+        width: 450px;
+    
+    }
+
+    /*Acitivite*/
+
+
+    .TitreSection
+    {
+        margin-top: 30px;
+        margin-left: 10px;
+
+    }
+
+    .Activites
+    {
+        
+        width: 450px;
+        height: 1700px;
+        grid-template-columns: 450px;
+        
+    }
+
+    .VieuxPort
+    {
+        
+        width: 450px;
+
+    }
+    .ImageLongue
+    {
+        
+        width: 450px;
+    
+    }
+
+    .ImageMoyenne
+    {
+        width: 450px;
+    
+    }
+
+    .ImageEtroite
+    {
+
+        width: 450px;
+
+    }
+
+    .ImageTresEtroite
+    {
+        width: 450px;
+    
+    }
+
+    .FortDePomegues
+    {
+    
+        width: 450px;
+       
+    }
+
+    .IlesDeFriou
+    {
+       
+        width: 450px;
+        
+    }
+
+    .ParcNational
+    {
+        
+        width: 450px;
+        
+    }
+
+    .NotreDame
+    {
+ 
+        width: 450px;
+        
+    }
+
+    .ParcLongchamp
+    {
+     
+        width: 450px;
+        
+    }
+
+    .TitreImageActivites
+    {
+        margin-left: 20px;
+        font-size: 19px;
+        
+        
+    }
+
+
+    /* Footer */
+
+    .PiedDePage
+    {
+
+        width: 480px;
+        
+    }
+
+
+
 }
+
