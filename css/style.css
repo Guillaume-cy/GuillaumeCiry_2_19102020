@@ -257,6 +257,10 @@ p
     
 }
 
+.EconomieText:hover
+{
+    background-color: #DEEBFF;
+}
 
 .familial
 {
@@ -293,6 +297,12 @@ p
     font-size: 16px;
     margin-left: 15px;
 }
+
+.familialText:hover
+{
+    background-color: #DEEBFF;
+}
+
 
 .romantique
 {
@@ -332,6 +342,12 @@ p
     
 }
 
+.romantiqueTexte:hover
+{
+    background-color: #DEEBFF;
+}
+
+
 .animaux
 {
     display: flex;
@@ -369,8 +385,13 @@ p
     font-size: 16px;
     margin-left: 20px;
     
-   
 }
+
+.animauxTexte:hover
+{
+    background-color: #DEEBFF;
+}
+
 .FooterFiltre
 {
     display: flex;
