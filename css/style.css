@@ -1787,7 +1787,7 @@ li
     {
         height: 240px;
         width: 470px;
-        grid-template-columns: 230px 230px ;
+        grid-template-columns: 180px 180px ;
         grid-template-rows:  150px 150px;
 
     }
@@ -1796,7 +1796,7 @@ li
     {
         height: 100px;
         width: 100px;
-        margin-left: 20px;
+        margin-left: 15px;
        
     }
 
@@ -1822,18 +1822,55 @@ li
     {
         
         width: 120px;
-        
+        grid-column: 2;
+        grid-row: 1;
     }
 
+    h1 
+    {
+        font-family: "Raleway" ;
+        font-size: 24px;
+        width: 400px;
+    }
     
     /*block recherche et filtre */
     
     .BlockRecherche
     {  
 
-     width: 470px;
+     width: 370px;
+     margin-left: 15px;
 
     }
+
+    .RechercheEntrer
+
+    {
+        
+        width: 300px;
+        height: 40px;
+        font-weight: 600;
+        font-size: 16px;
+        
+    }
+
+
+    .RechercheBouton
+    {
+       
+        width: 60px;
+        height: 47px;
+        border-radius: 10px;
+       
+    }
+
+    .TexteBoutonRecherche
+    {
+        display: none;
+        width: 50px;
+    }
+
+    
 
     .Filtres
 
@@ -1842,7 +1879,7 @@ li
     
      height: 250px;
      width: 470px;
-     grid-template-columns: 250px 200px;
+     grid-template-columns: 200px 200px;
      grid-template-rows: 60px 60px 60px 60px;
     
     }
@@ -1855,7 +1892,7 @@ li
 
     .Economie
     {    
-        width: 190px;
+        width: 180px;
         margin-left: 10px;
 
     }
@@ -1872,9 +1909,9 @@ li
 
     .familial
     {
-        width: 200px;
+        width: 180px;
         height: 47px;
-        margin-left: 0px;
+        margin-left: 15px;
     }
 
     .familialText
@@ -1918,9 +1955,38 @@ li
 
     .FooterFiltre
     {
-        width: 480px;
+        width: 350px;
 
     }
+
+    .FooterFiltre
+{
+    display: flex;
+    flex-wrap: wrap;
+    height: 70px;
+    width: 480px;
+    align-items: center;
+    margin-bottom: 20px;
+  
+
+}
+
+.iconeFooter
+{
+    
+    width: 25px;
+    height: 25px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.footerTexte
+{
+   
+    margin-left: 15px;
+    width: 300px;
+}
+
 
     /* block droit */
 
