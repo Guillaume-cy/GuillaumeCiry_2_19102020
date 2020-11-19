@@ -1798,7 +1798,7 @@ li
 
     .Header
     {
-        width: 470px;
+        width: 100%;
         /*A Ajuster */
         
     }
@@ -1806,18 +1806,18 @@ li
 
     .EnTete
     {
-        height: 240px;
-        width: 470px;
-        grid-template-columns: 180px 180px ;
-        grid-template-rows:  150px 150px;
+      
+        width: 100%;
 
     }
 
     .logo
     {
         height: 100px;
-        width: 100px;
+        width: 100%;
         margin-left: 15px;
+        grid-template-columns: 5fr 5fr ;
+        grid-template-rows:  120px 120px;
        
     }
 
@@ -1847,11 +1847,19 @@ li
         grid-row: 1;
     }
 
+    .titre
+    {
+        width: 100%;
+        margin-left: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 15px;
+    }
     h1 
     {
         font-family: "Raleway" ;
         font-size: 24px;
-        width: 400px;
+       
     }
     
     /*block recherche et filtre */
@@ -1859,7 +1867,7 @@ li
     .BlockRecherche
     {  
 
-     width: 370px;
+     width: 80%;
      margin-left: 15px;
 
     }
@@ -1899,15 +1907,15 @@ li
     
     
      height: 250px;
-     width: 470px;
-     grid-template-columns: 200px 200px;
+     width: 100%;
+     grid-template-columns: 5fr 5fr;
      grid-template-rows: 60px 60px 60px 60px;
     
     }
 
     .TitreFiltre
     {
-        width: 470px;
+        width: 100%;
         margin-left: 15px;
     }
 
@@ -1976,7 +1984,7 @@ li
 
     .FooterFiltre
     {
-        width: 350px;
+        width: 100%;
 
     }
 
@@ -2005,7 +2013,7 @@ li
 {
    
     margin-left: 15px;
-    width: 300px;
+    width: 75%;
 }
 
 
@@ -2014,8 +2022,8 @@ li
     .BlockDroit
     {
         
-        width: 470px;
-        grid-template-columns: 150px 250px 50px ;
+        width: 100%;
+        grid-template-columns: 2fr 2fr 1fr ;
         
         
     }
@@ -2039,7 +2047,7 @@ li
     .HotelSoleilMatin
     {
         
-        width: 450px;
+        width: 96%;
         height: 160px;
         
 
@@ -2048,7 +2056,7 @@ li
     .AuCoeurDeLeau
     {
     
-        width: 450px;
+        width: 96%;
         height: 160px;
     
     }
@@ -2056,7 +2064,7 @@ li
     .HotelToutBleu
     {
     
-        width: 450px;
+        width: 96%;
         height: 160px;
         
     }
@@ -2066,7 +2074,8 @@ li
     .BlockPrincipal
     {
     
-        grid-template-columns: 470px ;
+        grid-template-columns: 100% ;
+        width: 100%;
 
     }
 
@@ -2074,29 +2083,39 @@ li
     .BlockGauche
     {
     
-        width: 470px;
+        width: 100%;
         height: 2000px;
-        grid-template-columns: 470px;
+        grid-template-columns: 100%;
     
+    }
+
+    .titretext
+    {
+        width: 100%;
     }
 
     .TitreHebergement
     {
       
-       width: 450px;
+       width: 100%;
       
     }
     .AubergeCannebiere
     {
     
-        width: 450px;
+        width: 96%;
+        margin-left: 10px;
+        margin-right: 0px;
+       
    
     }
 
     .imageHebergement
     {
     
-        width: 450px;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
     
     }
 
@@ -2104,39 +2123,58 @@ li
     .HotelPort
     {
     
-        width: 450px;
+        width: 96%;
+        margin-left: 0px;
+        margin-right: 0px;
     
     }
 
     .HotelMouettes
     {
 
-        width: 450px;
+        width: 96%;
+        margin-left: 0px;
+        margin-right: 0px;
    
     }   
     .HotelMer
     {
     
-        width: 450px;
+        width: 96%;
+        margin-left: 0px;
+        margin-right: 0px;
     
     }
 
     .AubergePanier
     {   
     
-        width: 450px;
+        width: 96%;
+        margin-left: 0px;
+        margin-right: 0px;
     
     }
 
     .HotelAmina
     {
 
-        width: 450px;
+        width: 96%;
+        margin-left: 0px;
+        margin-right: 0px;
+       
     
     }
 
+    .footerHebergement
+    {
+        width: 100%;
+    }
     /*Acitivite*/
 
+    .BlockDroit
+    {
+        width: 100%;
+    }
 
     .TitreSection
     {
@@ -2148,82 +2186,82 @@ li
     .Activites
     {
         
-        width: 450px;
+        width: 100%;
         height: 1700px;
-        grid-template-columns: 450px;
+        grid-template-columns: 100%;
         
     }
 
     .VieuxPort
     {
         
-        width: 450px;
-        padding-left: 10px;
+        width: 96%;
+        
 
     }
     .ImageLongue
     {
         
-        width: 450px;
+        width: 100%;
     
     }
 
     .ImageMoyenne
     {
-        width: 450px;
+        width: 100%;
     
     }
 
     .ImageEtroite
     {
 
-        width: 450px;
+        width: 100%;
 
     }
 
     .ImageTresEtroite
     {
-        width: 450px;
+        width: 100%;
     
     }
 
     .FortDePomegues
     {
     
-        width: 450px;
-        padding-left: 10px;
+        width: 96%;
+        
        
     }
 
     .IlesDeFriou
     {
        
-        width: 450px;
-        padding-left: 10px;
+        width: 96%;
+        
 
     }
 
     .ParcNational
     {
         
-        width: 450px;
-        padding-left: 10px;
+        width: 96%;
+        
         
     }
 
     .NotreDame
     {
  
-        width: 450px;
-        padding-left: 10px;
+        width: 96%;
+       
         
     }
 
     .ParcLongchamp
     {
      
-        width: 450px;
-        padding-left: 10px;
+        width: 96%;
+        
         
     }
 
@@ -2241,7 +2279,7 @@ li
     .PiedDePage
     {
 
-        width: 480px;
+        width: 100%;
         
     }
 
