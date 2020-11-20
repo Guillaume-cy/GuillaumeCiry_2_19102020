@@ -13,7 +13,7 @@
     
     max-width: 1200px;
     margin: auto;
-    width: 100%;
+    
 }
 
 a
@@ -23,7 +23,10 @@ a
     
 }
 
-
+p
+{
+    margin-left: 10px;
+}
 
 body
     { 
@@ -58,16 +61,16 @@ p
 .EnTete
     {
         height: 100px;
-        width: 1200px;
+        width: 100%;
         display: grid;
-        grid-template-columns: 600px 300px 100px 100px 100px;
+        grid-template-columns: 3fr 2fr 1fr 1fr 1fr;
         grid-template-rows: 100px;
     }
 
 .logo
     {
         height: 100px;
-        width: 300px;
+        width: 20%;
         font-weight: bold;
         display: grid; 
         justify-content: space-between;
@@ -85,7 +88,6 @@ p
         color: #0065FC;
         padding: 50px;
         grid-column: 4;
-        width: 100px;
         margin-left: 550px;
 
     }
@@ -206,8 +208,6 @@ p
     
     height: 100px;
     display: flex;
-    flex-wrap: wrap;
-    
     margin-top: 20px;
     align-items: center;
     font-weight: 600;
@@ -231,7 +231,7 @@ p
     border-bottom-left-radius: 60px;
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
-    width: 180px;
+    width: 20%;
     height: 47px;
     margin-left: 40px;
     
@@ -276,7 +276,7 @@ p
     border-bottom-left-radius: 60px;
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
-    width: 180px;
+    width: 15%;
     height: 47px;
     margin-left: 40px;
 }
@@ -318,7 +318,7 @@ p
     border-bottom-left-radius: 60px;
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
-    width: 180px;
+    width: 20%;
     height: 47px;
     margin-left: 40px;
 }
@@ -362,7 +362,7 @@ p
     border-bottom-left-radius: 60px;
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
-    width: 230px;
+    width: 20%;
     height: 47px;
     margin-left: 40px;
 }
@@ -404,6 +404,7 @@ p
     height: 40px;
     align-items: center;
     margin-bottom: 20px;
+    width: 100%;
   
 
 }
@@ -422,6 +423,7 @@ p
     border-bottom-left-radius: 50px ;
     width: 25px;
     height: 25px;
+    margin-left: 10px;
 }
 
 .footerTexte
@@ -566,9 +568,9 @@ p
 {
     display: flex;
     grid-gap: 20px;
-    align-items: center;
     flex-direction: column;
     margin-top: 30px;
+    padding-left: 20px;
 }
 
 .CartePopulaire
@@ -579,6 +581,7 @@ p
     background-color: white;
     width: 300px;
     height: 120px;
+    
 }
 .TitreImageDroit
 {
@@ -607,7 +610,7 @@ p
     float: left;
     flex-wrap: wrap;
     border-radius: 20px 0px 0px 20px;
-    width: 120px;
+    width: 40%;
     height: 120px;
     object-fit: cover;
 }
@@ -639,13 +642,9 @@ p
     grid-template-columns: 300px 300px 300px 300px;
     grid-template-rows: 250px 250px;
     grid-gap: 10px;
-
     flex-wrap: wrap;
-    
-   
     margin-top: 20px;
-    justify-content: center;
-    
+  
 }
 
 .VieuxPort
@@ -665,7 +664,7 @@ p
 {
     
     border-radius:20px 20px 0px 0px;
-    width: 260px;
+    width: 100%;
     height: 420px;
     object-fit: cover;
 
@@ -674,7 +673,7 @@ p
 .ImageMoyenne
 {
     border-radius:20px 20px 0px 0px;
-    width: 260px;
+    width: 100%;
     height: 200px;
     column-gap: 20px;
     object-fit: cover;
@@ -683,7 +682,7 @@ p
 .ImageEtroite
 {
     border-radius:20px 20px 0px 0px;
-    width: 260px;
+    width: 100%;
     height: 150px;
     column-gap: 20px;
     object-fit: cover;
@@ -692,7 +691,7 @@ p
 .ImageTresEtroite
 {
     border-radius:20px 20px 0px 0px;
-    width: 260px;
+    width: 100%;
     height: 150px;
     column-gap: 20px;
     object-fit: cover;
@@ -819,9 +818,7 @@ li
 
     .container
     {
-    
-    max-width: 100%;
-    
+        max-width: 100%;
     }
 
     body
@@ -943,7 +940,7 @@ li
         {
             margin-top: 30px;
             margin-left: 10px;
-            width: 90%;
+            width: 80%;
         }   
 
         /* Section recherche */
@@ -1023,7 +1020,7 @@ li
     height: 250px;
     width: 100%;
     display: grid;
-    grid-template-columns: 350px 300px;
+    grid-template-columns: 1fr 2fr;
     grid-template-rows: 60px 60px 60px 60px;
     font-weight: 600;
     font-size: 16px;
@@ -1050,7 +1047,7 @@ li
         border-bottom-left-radius: 60px;
         border-top-right-radius: 60px;
         border-bottom-right-radius: 60px;
-        width: 250px;
+        width: 80%;
         height: 47px;
         margin-left: 10px;
         
@@ -1092,7 +1089,7 @@ li
         border-bottom-left-radius: 60px;
         border-top-right-radius: 60px;
         border-bottom-right-radius: 60px;
-        width: 200px;
+        width: 35%;
         height: 47px;
         
     }
@@ -1128,7 +1125,7 @@ li
         border-bottom-left-radius: 60px;
         border-top-right-radius: 60px;
         border-bottom-right-radius: 60px;
-        width: 200px;
+        width: 80%;
         height: 47px;
         margin-left: 10px;
         
@@ -1166,7 +1163,7 @@ li
         border-bottom-left-radius: 60px;
         border-top-right-radius: 60px;
         border-bottom-right-radius: 60px;
-        width: 250px;
+        width: 33%;
         height: 47px;
         grid-column: 1;
         grid-row: 4;
@@ -1257,6 +1254,7 @@ li
     width: 98%;
     height: 2000px;
     display: flex;
+    flex-direction: column;
     
     
     background-color: white;
@@ -1278,7 +1276,7 @@ li
         flex-wrap: wrap;
         box-shadow: 1px 1px 12px#F2F2F2;
         grid-column: 1;
-        width: 720px;
+        width: 96%;
         justify-self: center;
         height: 250px;
         margin-left: 10px;
@@ -1330,12 +1328,13 @@ li
     .BlockDroit
     {
         order: 1;
-        flex-wrap: wrap;
         background-color: #F2F2F2;
         border-color: whitesmoke;
         border-radius: 0px;
         width: 98%;
         height: 720px;
+        display: flex;
+        flex-direction: column;
         
     }
 
@@ -1351,23 +1350,19 @@ li
         padding-bottom: 10px;
     }
 
-    .EtoileDroit
-    {
-        
-    }
+    
     .IconeLienPop
     {
-        padding-left: 500px;
+        padding-left: 70%;
     }
     
     .CarteDroit
     {
         display: flex;
         grid-gap: 20px;
-        align-items: center;
         flex-direction: column;
         margin-top: 30px;
-        width: 100%;
+        width: 98%;
     }
 
     .CartePopulaire
@@ -1376,13 +1371,13 @@ li
         border-radius: 20px 20px;
         border: 4px white solid;
         background-color: white;
-        width: 720px;
+        width: 98%;
         height: 180px;
     }
 
     .ImagePopulaire
     {
-        width: 70%;
+        width: 60%;
         height: 100%;
     }
     
@@ -1598,12 +1593,6 @@ li
         
     }
 
-    .container
-    {
-    
-        max-width: 480px;
-    
-    }
 
     /* Header */
 
@@ -1639,7 +1628,7 @@ li
         
        
         margin-left: 0px;
-        width: 120px;
+        width: 20%;
 
     }
 
@@ -1647,15 +1636,16 @@ li
     {
         
         
-        width: 120px;
+        width: 20%;
     
     }
     .Ins
     {
         
-        width: 120px;
+        width: 20%;
         grid-column: 2;
         grid-row: 1;
+        padding-left: 100px;
     }
 
     .titre
@@ -1707,7 +1697,7 @@ li
 
     .TexteBoutonRecherche
     {
-        display: none;
+        
         width: 50px;
     }
 
@@ -1733,7 +1723,7 @@ li
 
     .Economie
     {    
-        width: 180px;
+        width: 80%;
         margin-left: 10px;
 
     }
@@ -1750,9 +1740,9 @@ li
 
     .familial
     {
-        width: 180px;
+        width: 75%;
         height: 47px;
-        margin-left: 15px;
+        margin-left: 0px;
     }
 
     .familialText
@@ -1764,7 +1754,7 @@ li
 
     .romantique
     {
-        width: 200px;
+        width: 90%;
         margin-left: 10px;
         
     }
@@ -1779,7 +1769,7 @@ li
 
     .animaux
     {
-        width: 250px;
+        width: 60%;
         margin-left: 10px;
         
     }
@@ -1805,7 +1795,6 @@ li
     display: flex;
     flex-wrap: wrap;
     height: 70px;
-    width: 480px;
     align-items: center;
     margin-bottom: 20px;
   
@@ -1850,17 +1839,10 @@ li
         display: flex;
         justify-self: center;
         margin-top: 20px;
-        padding-left: 240px;
+        padding-left: 45%;
+        
     }
 
-    .EtoileDroit
-    
-        
-        padding-top: 40px;
-        font-size: 10px;
-        padding-left: 165px;
-        
-    
 
     .CarteDroit
     {
@@ -1870,6 +1852,7 @@ li
         flex-direction: column;
         margin-top: 30px;
         width: 100%;
+        padding-left: 0px;
     }
 
     .CartePopulaire
@@ -1879,13 +1862,13 @@ li
         border: 4px white solid;
         background-color: white;
         height: 180px;
-        width: 460px;
+        width: 98%;
     }
 
     .ImagePopulaire
     {
         height: 100%;
-        width: 200px;
+        width: 45%;
     }
 
     .ImageTextDroit
@@ -1899,7 +1882,7 @@ li
     .BlockPrincipal
     {
         width: 100%;
-        height: 2700px;
+        height: 2530px;
     }
 
 
@@ -1926,9 +1909,9 @@ li
 
     .CarteHebergement
     {
-         width: 96%;
-        margin-left: 5px;
-        margin-right: 5px;
+        width: 92%;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     
 
