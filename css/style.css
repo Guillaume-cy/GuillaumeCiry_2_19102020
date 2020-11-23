@@ -1616,7 +1616,7 @@ li
         height: 100px;
         width: 100%;
         margin-left: 15px;
-        grid-template-columns: 5fr 5fr ;
+        grid-template-columns: 200px 1fr ;
         grid-template-rows:  120px 120px;
        
     }
@@ -1627,25 +1627,27 @@ li
     {
         
        
-        margin-left: 0px;
-        width: 20%;
-
+        
+        width: 10%;
+       
     }
 
     .Act
     {
         
         
-        width: 20%;
+        width: 10%;
+       
+        
     
     }
     .Ins
     {
         
-        width: 20%;
+        width: 5%;
         grid-column: 2;
         grid-row: 1;
-        padding-left: 100px;
+        padding-left: 80px;
     }
 
     .titre
