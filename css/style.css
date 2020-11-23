@@ -144,7 +144,7 @@ p
         border-bottom-left-radius: 20px;
         border-top-right-radius: 20px;
         border-bottom-right-radius: 20px;
-        width: 400px;
+        width: 39%;
     }
 .IconeRecherche
     {
@@ -164,7 +164,7 @@ p
         border: none;
         padding-left: 15px; 
         padding-top: 5px;
-        width: 250px;
+        width: 300px;
         height: 47px;
         font-weight: 600;
         font-size: 16px;
@@ -186,7 +186,6 @@ p
         border: none;
         border-top-right-radius: 20px 20px;
         border-bottom-right-radius: 20px 20px;
-        padding: 0.5rem 0.5rem;
         width: 110px;
         height: 47px;
         display: flex;
@@ -194,7 +193,17 @@ p
         font-family: "Raleway";
         font-weight: 600;
         font-size: 16px;
+        
     }
+
+    .IconeBouton
+    {
+        font-weight: 800;
+        color: white;
+        display: none;
+    }
+    
+    
 
         
 
@@ -212,6 +221,7 @@ p
     align-items: center;
     font-weight: 600;
     font-size: 16px;
+ 
     
     
 }
@@ -237,28 +247,14 @@ p
     
 }
 
-.IconeEco
-{
-    display: flex;
-    color: #0065FC;
-    border: none;
-    background-color: #DEEBFF;
-    justify-content: center;
-    align-items: center;
-    border-top-right-radius: 50px ;
-    border-bottom-right-radius: 50px;
-    border-top-left-radius: 50px ;
-    border-bottom-left-radius: 50px ;
-    width: 50px;
-    height: 50px;
-    
-}
 
-.EconomieText
+
+.FiltreTexte
 {
     font-weight: 600;
     font-size: 16px;
     margin-left: 15px;
+
     
 }
 
@@ -280,28 +276,7 @@ p
     height: 47px;
     margin-left: 40px;
 }
-.iconefamilial
-{
-    display: flex;
-    color: #0065FC;
-    border: none;
-    background-color: #DEEBFF;
-    justify-content: center;
-    align-items: center;
-    border-top-right-radius: 50px ;
-    border-bottom-right-radius: 50px;
-    border-top-left-radius: 50px ;
-    border-bottom-left-radius: 50px ;
-    width: 50px;
-    height: 50px;
-}
 
-.familialText
-{
-    font-weight: 600;
-    font-size: 16px;
-    margin-left: 15px;
-}
 
 .familialText:hover
 {
@@ -323,29 +298,7 @@ p
     margin-left: 40px;
 }
 
-.iconeRomantique
-{
-    display: flex;
-    color: #0065FC;
-    border: none;
-    background-color: #DEEBFF;
-    justify-content: center;
-    align-items: center;
-    border-top-right-radius: 50px ;
-    border-bottom-right-radius: 50px;
-    border-top-left-radius: 50px ;
-    border-bottom-left-radius: 50px ;
-    width: 50px;
-    height: 50px;
-}
 
-.romantiqueTexte
-{
-    font-weight: 600;
-    font-size: 16px;
-    margin-left: 15px;
-    
-}
 
 .romantiqueTexte:hover
 {
@@ -367,10 +320,9 @@ p
     margin-left: 40px;
 }
 
-.iconeAnimaux
+.FiltreIcone
 {
     display: flex;
-    
     color: #0065FC;
     border: none;
     background-color: #DEEBFF;
@@ -384,13 +336,6 @@ p
     height: 50px;
 }
 
-.animauxTexte
-{
-    font-weight: 600;
-    font-size: 16px;
-    margin-left: 20px;
-    
-}
 
 .animauxTexte:hover
 {
@@ -446,6 +391,7 @@ p
 .far
 {
     color:#F2F2F2;
+   
 }
 
 .BlockPrincipal
@@ -1054,31 +1000,6 @@ li
         
     }
 
-    .IconeEco
-    {
-        
-        color: #0065FC;
-        border: none;
-        background-color: #DEEBFF;
-        justify-content: center;
-        align-items: center;
-        border-top-right-radius: 50px ;
-        border-bottom-right-radius: 50px;
-        border-top-left-radius: 50px ;
-        border-bottom-left-radius: 50px ;
-        width: 50px;
-        height: 50px;
-        
-    }
-
-    .EconomieText
-    {
-        font-weight: 600;
-        font-size: 16px;
-        margin-left: 15px;
-        
-    }
-
 
     .familial
     {
@@ -1093,28 +1014,7 @@ li
         height: 47px;
         
     }
-    .iconefamilial
-    {
-        display: flex;
-        color: #0065FC;
-        border: none;
-        background-color: #DEEBFF;
-        justify-content: center;
-        align-items: center;
-        border-top-right-radius: 50px ;
-        border-bottom-right-radius: 50px;
-        border-top-left-radius: 50px ;
-        border-bottom-left-radius: 50px ;
-        width: 50px;
-        height: 50px;
-    }
-
-    .familialText
-    {
-        font-weight: 600;
-        font-size: 16px;
-        margin-left: 15px;
-    }
+ 
 
     .romantique
     {
@@ -1131,28 +1031,6 @@ li
         
     }
 
-    .iconeRomantique
-    {
-        display: flex;
-        color: #0065FC;
-        border: none;
-        background-color: #DEEBFF;
-        justify-content: center;
-        align-items: center;
-        border-top-right-radius: 50px ;
-        border-bottom-right-radius: 50px;
-        border-top-left-radius: 50px ;
-        border-bottom-left-radius: 50px ;
-        width: 50px;
-        height: 50px;
-    }
-
-    .romantiqueTexte
-    {
-        font-weight: 600;
-        font-size: 16px;
-        margin-left: 15px;
-    }
 
     .animaux
     {
@@ -1172,32 +1050,7 @@ li
         
     }
 
-    .iconeAnimaux
-    {
-        display: flex;
-        
-        color: #0065FC;
-        border: none;
-        background-color: #DEEBFF;
-        justify-content: center;
-        align-items: center;
-        border-top-right-radius: 50px ;
-        border-bottom-right-radius: 50px;
-        border-top-left-radius: 50px ;
-        border-bottom-left-radius: 50px ;
-        width: 50px;
-        height: 50px;
-    }
 
-    .animauxTexte
-    {
-        font-weight: 600;
-        font-size: 16px;
-        margin-left: 20px;
-        color: black;
-        
-    
-    }
     .FooterFiltre
     {
         display: flex;
@@ -1701,6 +1554,15 @@ li
     {
         
         width: 50px;
+        display: none;
+    }
+
+    .IconeBouton
+    {
+        font-weight: 800;
+        color: white;
+        display: flex;
+        margin-left: 5px;
     }
 
     
@@ -1731,27 +1593,11 @@ li
     }
 
 
-    .EconomieText
-    {
-        font-weight: 600;
-        font-size: 16px;
-        margin-left: 15px;
-        
-    }
-
-
     .familial
     {
         width: 75%;
         height: 47px;
         margin-left: 0px;
-    }
-
-    .familialText
-    {
-        font-weight: 600;
-        font-size: 16px;
-        margin-left: 15px;
     }
 
     .romantique
@@ -1761,14 +1607,6 @@ li
         
     }
 
-
-    .romantiqueTexte
-    {
-        font-weight: 600;
-        font-size: 16px;
-        margin-left: 15px;
-    }
-
     .animaux
     {
         width: 60%;
@@ -1776,15 +1614,6 @@ li
         
     }
 
-
-
-    .animauxTexte
-    {
-        font-weight: 600;
-        font-size: 16px;
-        margin-left: 20px;
-        
-    }
 
     .FooterFiltre
     {
