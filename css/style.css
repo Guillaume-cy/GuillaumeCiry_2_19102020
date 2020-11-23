@@ -4,40 +4,34 @@
     src: url("fonts/static/raleway-regular.ttf");
 }
 
-
-
 .container
 {
     
     max-width: 1200px;
-    margin: auto;
-    
+    margin: auto;   
 }
 
 a
 {
     text-decoration: none;
-    color: grey;
-    
+    color: grey; 
 }
 
 p
 {
     margin-left: 10px;
+    font-family: "Raleway";
 }
 
 .far
 {
     color:#F2F2F2;
-   
 }
 
 body
     { 
         font-family: "Raleway";
         margin:27.6px;
-        
-        
     }
 h1 
     {
@@ -78,7 +72,6 @@ h3
         justify-content: space-between;
         align-items: center; 
         color: #0065FC;
-
     }
 
 
@@ -91,7 +84,6 @@ h3
         padding: 50px;
         grid-column: 4;
         margin-left: 550px;
-
     }
    
 .Act
@@ -100,7 +92,6 @@ h3
         color: #0065FC;
         padding: 50px;
         grid-column: 5;
-
     }
 
 .Ins
@@ -109,7 +100,6 @@ h3
         color: #0065FC;
         padding: 50px;
         grid-column: 6;
-
     }
 
 .Ins:hover
@@ -155,8 +145,7 @@ h3
         text-align: center;
         border-top-left-radius: 10px 10px;
         border-bottom-left-radius: 10px 10px;
-        width: 35px;
-    
+        width: 35px;    
     }
     
 .RechercheEntrer
@@ -169,9 +158,7 @@ h3
         width: 300px;
         height: 47px;
         font-weight: 600;
-        font-size: 16px;
-        
-    
+        font-size: 16px;        
     }
 
 .RechercheEntrer::placeholder
@@ -197,8 +184,7 @@ h3
     }
 
     .IconeBoutonRecherche
-    {
-        
+    {   
         background-color: #0065FC;
         cursor: pointer;
         border: none;
@@ -210,29 +196,18 @@ h3
         height: 47px;
         border-radius: 10px;
         display:none;
-
     }
-
-    
-    
-
-
 
 /* Section Filtre */
 
 .Filtres
-
-{
-    
+{    
     height: 100px;
     display: flex;
     margin-top: 20px;
     align-items: center;
     font-weight: 600;
-    font-size: 16px;
- 
-    
-    
+    font-size: 16px;   
 }
 
 .TitreFiltre
@@ -252,8 +227,7 @@ h3
     border-bottom-right-radius: 60px;
     width: 20%;
     height: 47px;
-    margin-left: 40px;
-    
+    margin-left: 40px;    
 }
 
 
@@ -262,9 +236,7 @@ h3
 {
     font-weight: 600;
     font-size: 16px;
-    margin-left: 15px;
-
-    
+    margin-left: 15px;    
 }
 
 .EconomieText:hover
@@ -286,12 +258,10 @@ h3
     margin-left: 40px;
 }
 
-
 .familialText:hover
 {
     background-color: #DEEBFF;
 }
-
 
 .romantique
 {
@@ -307,13 +277,10 @@ h3
     margin-left: 40px;
 }
 
-
-
 .romantiqueTexte:hover
 {
     background-color: #DEEBFF;
 }
-
 
 .animaux
 {
@@ -345,7 +312,6 @@ h3
     height: 50px;
 }
 
-
 .animauxTexte:hover
 {
     background-color: #DEEBFF;
@@ -359,8 +325,6 @@ h3
     align-items: center;
     margin-bottom: 20px;
     width: 100%;
-  
-
 }
 
 .iconeFooter
@@ -381,8 +345,7 @@ h3
 }
 
 .footerTexte
-{
-   
+{ 
     margin-left: 15px;
 }
 
@@ -394,10 +357,7 @@ h3
     padding-top: 5px;
     font-size: 10px;
     padding-left: 15px;
-
 }
-
-
 
 .BlockPrincipal
 {
@@ -422,10 +382,6 @@ h3
     grid-template-columns: 250px 250px 250px;
     grid-template-rows: 50px 250px 250px 50px ;
     grid-gap: 20px;
-    
-    
-
-
 }
 
 .TitreHebergement
@@ -433,9 +389,7 @@ h3
     
     width: 400px;
     margin-left: 20px;
-    grid-column: 1/3 span;
-    
-   
+    grid-column: 1/3 span;  
 }
 
 .CarteHebergement
@@ -444,8 +398,7 @@ h3
     background-color:white;
     border-radius: 20px 20px;
     height: 220px;
-    margin-left: 15px;
-    
+    margin-left: 15px;  
 }
 
 
@@ -457,14 +410,9 @@ h3
     justify-self: center;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
-
-    grid-column: 1;
-    
-    
+    grid-column: 1; 
     width: 100%;
-    height: 140px;
-    
-    
+    height: 140px;  
 }
 
 .TitreImage
@@ -478,17 +426,12 @@ h3
     padding-left: 15px;
 }
 
-
-
-
-
 .footerHebergement
 {
     order: 8;
     width: 400px;
     margin-left: 20px;
-    grid-column: 1/3 span ;
-    
+    grid-column: 1/3 span ;   
 }
 
 .BlockDroit
@@ -535,25 +478,19 @@ h3
     
 }
 .TitreImageDroit
-{
-    
-    
+{ 
     width: 150px;
     grid-column: 3;
     padding-left: 15px;
-    
 }   
 
 .ImageTextDroit
-{
-    
+{  
     font-size: 12px;
     margin-left: 10px;
     padding-left: 15px;
     display: grid;
-    grid-column: 2;
-    
-    
+    grid-column: 2;   
 }
 
 .ImagePopulaire
@@ -577,8 +514,6 @@ h3
     
 }
 
-
-
 /* Section Activiter */
 
 .TitreSection
@@ -595,12 +530,10 @@ h3
     grid-gap: 10px;
     flex-wrap: wrap;
     margin-top: 20px;
-  
 }
 
 .VieuxPort
 {
-   
     flex-wrap: wrap;
     justify-self: center;
     border-radius: 20px;
@@ -618,7 +551,6 @@ h3
     width: 100%;
     height: 420px;
     object-fit: cover;
-
 }
 
 .ImageMoyenne
@@ -650,7 +582,6 @@ h3
 
 .FortDePomegues
 {
-   
     order: 2;
     flex-wrap: wrap;
     justify-self: center;
@@ -675,8 +606,7 @@ h3
     width: 260px;
     height: 200px;
     box-shadow: 1px 1px 12px #F2F2F2;
-    margin-top: 20px;
-    
+    margin-top: 20px; 
 }
 
 .ParcNational
@@ -758,8 +688,6 @@ ul
 li
 {
     margin-bottom: 10px;
-    
-
 }
 
 
@@ -795,18 +723,12 @@ li
         display: grid ;
     }
 
-    p
-    { font-family: "Raleway";}
-
-
     /* Header */
 
     .Header
     {
         width: 100%;
-        
     }
-
 
     .EnTete
     {
@@ -815,7 +737,6 @@ li
         display: grid;
         grid-template-columns: 50% 50% ;
         grid-template-rows:  150px 150px;
-
     }
 
     .logo
@@ -826,52 +747,42 @@ li
         display: grid;
         flex-wrap: wrap; 
         color: #0065FC;
-        margin-left: 10px;
-        
+        margin-left: 10px;    
     }
 
-
-
     .Maison
-    {
-        
-        color: #0065FC;
+    { 
+          color: #0065FC;
         margin-left: 0px;
         display: grid;
         grid-column: 1;
         grid-row: 2;
         justify-content: center;
         width: 220px;
-
     }
 
     .Act
-    {
-        
+    {  
         color: #0065FC;
         justify-content: center;
         display: grid;
         grid-row: 2;
         grid-column: 2;
         width: 220px;
-    
     }
     .Ins
-    {
-        
+    {   
         color: #0065FC;
         justify-content: end;
         display: grid;
         grid-row: 1;
         grid-column: 2;
-        width: 220px;
-        
+        width: 220px;  
     }
 
     .Ins:hover
     {
-        border-top: 3px #0065FC solid ;
-        
+        border-top: 3px #0065FC solid ;    
     }
 
     .Maison:hover
@@ -887,14 +798,16 @@ li
     }
 
     /* Section titre */
+
     .titre
-        {
-            margin-top: 30px;
-            margin-left: 10px;
-            width: 80%;
-        }   
+    {
+        margin-top: 30px;
+        margin-left: 10px;
+        width: 80%;
+    }   
 
         /* Section recherche */
+
     .BlockRecherche
     {
         margin-top: 30px;
@@ -915,7 +828,6 @@ li
         border-top-left-radius: 10px 10px;
         border-bottom-left-radius: 10px 10px;
         width: 35px;
-
     }
     .RechercheEntrer::placeholder
     {
@@ -935,10 +847,6 @@ li
         height: 40px;
         font-weight: 600;
         font-size: 16px;
-        
-        
-        
-
     }
 
 
@@ -953,8 +861,6 @@ li
         display: flex;
         width: 110px;
         height: 47px;
-        
-        
         font-family: "Raleway";
     }
 
@@ -965,18 +871,15 @@ li
 
     .Filtres
 
-    {
-    
-    border: none;
-    height: 250px;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 60px 60px 60px 60px;
-    font-weight: 600;
-    font-size: 16px;
-   
-    
+    {  
+        border: none;
+        height: 250px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 60px 60px 60px 60px;
+        font-weight: 600;
+        font-size: 16px;    
     }
 
     .TitreFiltre
@@ -991,8 +894,6 @@ li
 
     .Economie
     {
-        
-        
         border: 1px #F2F2F2 solid;    
         border-top-left-radius: 60px ;
         border-bottom-left-radius: 60px;
@@ -1001,15 +902,11 @@ li
         width: 80%;
         height: 47px;
         margin-left: 10px;
-        
-        
     }
 
 
     .familial
-    {
-        
-        
+    { 
         border: 1px #F2F2F2 solid;    
         border-top-left-radius: 60px ;
         border-bottom-left-radius: 60px;
@@ -1017,14 +914,10 @@ li
         border-bottom-right-radius: 60px;
         width: 35%;
         height: 47px;
-        
     }
  
-
     .romantique
     {
-        
-        
         border: 1px #F2F2F2 solid;    
         border-top-left-radius: 60px ;
         border-bottom-left-radius: 60px;
@@ -1036,11 +929,8 @@ li
         
     }
 
-
     .animaux
     {
-    
-        
         border: 1px #F2F2F2 solid;    
         border-top-left-radius: 60px ;
         border-bottom-left-radius: 60px;
@@ -1051,8 +941,7 @@ li
         grid-column: 1;
         grid-row: 4;
         grid-column: 1/2 span;
-        margin-left: 10px;
-        
+        margin-left: 10px;  
     }
 
 
@@ -1063,8 +952,6 @@ li
         margin-top: 40px;
         height: 60px;
         align-items: center;
-    
-
     }
 
     .iconeFooter
@@ -1085,9 +972,7 @@ li
 
     .footerTexte
     {
-    
-        margin-left: 15px;
-        
+        margin-left: 15px; 
     }
         
     /*block gauche hebergement */
@@ -1095,38 +980,30 @@ li
 
     .BlockPrincipal
     {
-    display: grid;
-    flex-wrap: wrap;
-    grid-gap: 30px;
-    grid-template-columns: 100% ;
-    height: 2700px;
-    width: 100%;
-    
+        display: grid;
+        flex-wrap: wrap;
+        grid-gap: 30px;
+        grid-template-columns: 100% ;
+        height: 2700px;
+        width: 100%;
     }
 
 
     .BlockGauche
     {
-    order: 2;
-    border: none;
-    width: 98%;
-    height: 2000px;
-    display: flex;
-    flex-direction: column;
-    
-    
-    background-color: white;
-    
+        order: 2;
+        border: none;
+        width: 98%;
+        height: 2000px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
     }
 
     .TitreHebergement
     {
-      
        width: 100%;
        height: 50px;
-      
-       
-      
     }
     
     .CarteHebergement
@@ -1139,34 +1016,27 @@ li
         height: 250px;
         margin-left: 10px;
     }
-    
-    
-   
-    
-    
-
+  
     .imageHebergement
     {
-    
-    flex-wrap: wrap;
-    border-radius: 20px 20px 0px 0px;
-    width: 100%;
-    height: 140px;
-    object-fit: cover;
-    
+        flex-wrap: wrap;
+        border-radius: 20px 20px 0px 0px;
+        width: 100%;
+        height: 140px;
+        object-fit: cover;
     }
 
     .TitreImage
     {
-    padding-left: 15px;
-    font-size: 19px;
+        padding-left: 15px;
+        font-size: 19px;
     }
 
     .imageText
     {
-    font-size: 16px;
-    padding-left: 15px;
-    color: black;
+        font-size: 16px;
+        padding-left: 15px;
+        color: black;
     }
 
     
@@ -1176,12 +1046,9 @@ li
         order: 8;
         width: 100%;
         margin-left: 10px;
-        
     }
 
-
         /*BlockDroit*/
-
 
     .BlockDroit
     {
@@ -1193,7 +1060,6 @@ li
         height: 720px;
         display: flex;
         flex-direction: column;
-        
     }
 
     .TitreImageDroit
@@ -1207,7 +1073,6 @@ li
         color: black;
         padding-bottom: 10px;
     }
-
     
     .IconeLienPop
     {
@@ -1248,8 +1113,6 @@ li
     {
         margin-top: 30px;
         margin-left: 10px;
-        
-        
     }
 
     .Activites
@@ -1263,12 +1126,10 @@ li
         flex-wrap: wrap;
         justify-content: center;
         margin-top: 20px;
-        
     }
 
     .VieuxPort
     {
-    
         flex-wrap: wrap;
         justify-self: center;
         border-radius: 20px;
@@ -1280,12 +1141,10 @@ li
     }
     .ImageLongue
     {
-        
         border-radius:20px 20px 0px 0px;
         width: 100%;
         height: 160px;
         object-fit: cover;
-
     }
 
     .ImageMoyenne
@@ -1317,7 +1176,6 @@ li
 
     .FortDePomegues
     {
-    
         order: 2;
         flex-wrap: wrap;
         justify-self: center;
@@ -1384,20 +1242,14 @@ li
     {
         margin-left: 20px;
         font-size: 19px;
-        
-        
     }
-
-
 
     /* Footer */
 
     .PiedDePage
     {
-
         background-color: #F2F2F2;
-        border: whitesmoke;
-        
+        border: whitesmoke; 
     }
 
     .MenuPiedDePage
@@ -1413,22 +1265,17 @@ li
     ul
     {
         list-style-type: none;
-        padding: 0;
-        
-            
+        padding: 0;        
     }
 
     li
     {
         margin-bottom: 10px;
-        
-
     }
 
     .APropos
     {
-        margin-left: 10px;
-        
+        margin-left: 10px; 
     }
 
     .Assistance
@@ -1447,8 +1294,6 @@ li
     { 
         font-family: "Raleway";
         margin:0px;
-        
-        
     }
 
 
@@ -1457,16 +1302,12 @@ li
     .Header
     {
         width: 100%;
-        /*A Ajuster */
-        
     }
 
 
     .EnTete
     {
-      
         width: 100%;
-
     }
 
     .logo
@@ -1483,21 +1324,12 @@ li
 
     .Maison
     {
-        
-       
-        
         width: 10%;
-       
     }
 
     .Act
     {
-        
-        
         width: 10%;
-       
-        
-    
     }
     .Ins
     {
@@ -1510,39 +1342,32 @@ li
 
     .titre
     {
-       
         margin-left: 10px;
         margin-right: 0px;
         margin-top: 0px;
-        
     }
     h1 
     {
         font-family: "Raleway" ;
         font-size: 24px;
         width: 100%;
-       
     }
     
     /*block recherche et filtre */
     
     .BlockRecherche
     {  
-
-     width: 80%;
-     margin-left: 15px;
-
+        width: 80%;
+        margin-left: 15px;
     }
 
     .RechercheEntrer
 
     {
-        
         width: 300px;
         height: 40px;
         font-weight: 600;
         font-size: 16px;
-        
     }
 
     .RechercheBouton
@@ -1557,8 +1382,7 @@ li
         width: 60px;
         height: 47px;
         border-radius: 10px;
-        display:flex
-        
+        display:flex  
     }
     
 
@@ -1567,20 +1391,13 @@ li
         display: none;
     }
 
-
-
-    
-
     .Filtres
 
     {
-    
-    
      height: 250px;
      width: 100%;
      grid-template-columns: 5fr 5fr;
-     grid-template-rows: 60px 60px 60px 60px;
-    
+     grid-template-rows: 60px 60px 60px 60px;  
     }
 
     .TitreFiltre
@@ -1596,7 +1413,6 @@ li
 
     }
 
-
     .familial
     {
         width: 75%;
@@ -1608,14 +1424,12 @@ li
     {
         width: 90%;
         margin-left: 10px;
-        
     }
 
     .animaux
     {
         width: 60%;
-        margin-left: 10px;
-        
+        margin-left: 10px; 
     }
 
 
@@ -1626,46 +1440,38 @@ li
     }
 
     .FooterFiltre
-{
+    {
     display: flex;
     flex-wrap: wrap;
     height: 70px;
     align-items: center;
     margin-bottom: 20px;
-  
+    }
 
-}
-
-.iconeFooter
-{
-    
+    .iconeFooter
+    {
     width: 25px;
     height: 25px;
     margin-bottom: 20px;
     margin-left: 15px;
-}
+    }
 
-.footerTexte
-{
-   
+    .footerTexte
+    {
     margin-left: 15px;
     width: 75%;
-}
-
+    }
 
     /* block droit */
 
     .BlockDroit
     {
-        
         width: 100%;
         display: flex;
-        
     }
 
     .TitreHebergementDroit
     {
-       
         display: flex;
     }
 
@@ -1675,9 +1481,7 @@ li
         justify-self: center;
         margin-top: 20px;
         padding-left: 45%;
-        
     }
-
 
     .CarteDroit
     {
@@ -1711,7 +1515,6 @@ li
        padding-bottom: 40px;
     }
 
-
     /*bloc gauche*/
 
     .BlockPrincipal
@@ -1723,11 +1526,9 @@ li
 
     .BlockGauche
     {
-    
         width: 100%;
         height: 2000px;
         grid-template-columns: 100%;
-    
     }
 
     .titretext
@@ -1737,9 +1538,7 @@ li
 
     .TitreHebergement
     {
-      
        width: 100%;
-      
     }
 
     .CarteHebergement
@@ -1752,11 +1551,9 @@ li
 
     .imageHebergement
     {
-    
         width: 100%;
         margin-left: 0px;
         margin-right: 0px;
-    
     }
 
 
@@ -1766,6 +1563,7 @@ li
         width: 98%;
         padding-bottom: 50px;
     }
+
     /*Acitivite*/
 
     .BlockDroit
@@ -1781,106 +1579,73 @@ li
     }
 
     .Activites
-    {
-        
+    { 
         width: 100%;
         height: 1700px;
-        grid-template-columns: 100%;
-        
+        grid-template-columns: 100%; 
     }
 
     .VieuxPort
     {
-        
         width: 96%;
-        
-
     }
     .ImageLongue
     {
-        
         width: 100%;
-    
     }
 
     .ImageMoyenne
     {
         width: 100%;
-    
     }
 
     .ImageEtroite
     {
-
         width: 100%;
-
     }
 
     .ImageTresEtroite
     {
         width: 100%;
-    
     }
 
     .FortDePomegues
     {
-    
         width: 96%;
-        
-       
     }
 
     .IlesDeFriou
     {
-       
         width: 96%;
-        
-
     }
 
     .ParcNational
     {
-        
         width: 96%;
-        
-        
     }
 
     .NotreDame
     {
- 
         width: 96%;
-       
-        
     }
 
     .ParcLongchamp
     {
-     
         width: 96%;
-        
-        
     }
 
     .TitreImageActivites
     {
         margin-left: 20px;
         font-size: 19px;
-        
-        
     }
-
 
     /* Footer */
 
     .PiedDePage
     {
-
-        width: 100%;
-        
+        width: 100%;      
     }
-
-
 
 }
 
