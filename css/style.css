@@ -185,15 +185,14 @@ p
         cursor: pointer;
         border: none;
         border-top-right-radius: 20px 20px;
-        border-bottom-right-radius: 20px 20px;
-        width: 110px;
-        height: 47px;
+        border-bottom-right-radius: 20px 20px; 
         display: flex;
         align-items: center;
         font-family: "Raleway";
         font-weight: 600;
         font-size: 16px;
-        
+        width: 150px;
+        height: 47px;
     }
 
     .IconeBouton
