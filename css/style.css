@@ -5,10 +5,9 @@
 }
 
 .container
-{
-    
+{ 
     max-width: 1200px;
-    margin: auto;   
+    margin: auto;
 }
 
 a
@@ -684,7 +683,7 @@ li
 
     .container
     {
-        max-width: 100%;
+        max-width: 96%;
     }
 
     body
@@ -862,9 +861,10 @@ li
     {  
         border: none;
         height: 200px;
-        width: 80%%;
+        width: 80%;
         font-weight: 600;
-        font-size: 16px;    
+        font-size: 16px;   
+        margin-left: 10px; 
     }
 
     
