@@ -719,7 +719,7 @@ li
     .EnTete
     {
         height: 240px;
-        width: 100%;
+        width: 90%;
         display: grid;
         grid-template-columns: 1fr 1fr ;
         grid-template-rows:  150px 150px; 
@@ -1272,7 +1272,7 @@ li
 
     .EnTete
     {
-        width: 100%;
+        width: 90%;
         margin-left: 15px;
         grid-template-columns: 1fr 1fr ;
         grid-template-rows:  120px 120px;
