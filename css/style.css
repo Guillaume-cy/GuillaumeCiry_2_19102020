@@ -237,10 +237,6 @@ h3
     margin-right: 15px;
 }
 
-.EconomieText:hover
-{
-    background-color: #DEEBFF;
-}
 
 .familial
 {
@@ -254,10 +250,28 @@ h3
     
 }
 
-.familialText:hover
+.Economie:hover
 {
     background-color: #DEEBFF;
 }
+
+
+.familial:hover
+{
+    background-color: #DEEBFF;
+}
+
+.romantique:hover
+{
+    background-color: #DEEBFF;
+}
+
+.animaux:hover
+{
+    background-color: #DEEBFF;
+}
+
+
 
 .romantique
 {
@@ -271,10 +285,6 @@ h3
     
 }
 
-.romantiqueTexte:hover
-{
-    background-color: #DEEBFF;
-}
 
 .animaux
 {
@@ -304,10 +314,7 @@ h3
     height: 50px;
 }
 
-.animauxTexte:hover
-{
-    background-color: #DEEBFF;
-}
+
 
 .FooterFiltre
 {
@@ -1305,6 +1312,7 @@ li
     .EnTete
     {
         width: 90%;
+        height: 200px;
         margin-left: 15px;
         grid-template-columns: 1fr 1fr ;
         grid-template-rows:  120px 120px;
