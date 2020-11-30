@@ -715,7 +715,7 @@ li
 
     .container
     {
-        max-width: 96%;
+        max-width: 99%;
     }
 
     body
@@ -1077,6 +1077,8 @@ li
         margin-top: 30px;
         width: 100%;
         padding-left: 0px;
+        margin-right: 0px;
+        margin-left: 8px;
     }
 
     .CartePopulaire
@@ -1085,7 +1087,7 @@ li
         border-radius: 20px 20px;
         border: 4px white solid;
         background-color: white;
-        width: 100%;
+        width: 97%;
         height: 180px;
     }
 
@@ -1293,7 +1295,7 @@ li
 
     .container
     {
-        max-width: 96%;
+        max-width: 98%;
     }
 
     h3
@@ -1395,7 +1397,7 @@ li
 
     {
      height: 250px;
-     width: 100%;
+     width: 90%;
      margin-left: 10px;
     }
 
@@ -1413,12 +1415,12 @@ li
 
     .familial
     {
-        width: 46%;
+        width: 43%;
     }
 
     .romantique
     {
-        width: 60%;
+        width: 50%;
     }
 
     .animaux
@@ -1497,7 +1499,8 @@ li
         border: 4px white solid;
         background-color: white;
         height: 180px;
-        width: 95%;
+        width: 96%;
+        margin-right: 10px;
     }
 
     .ImagePopulaire
@@ -1573,8 +1576,9 @@ li
 
     .Activites
     { 
-        width: 90%;
+        width: 95%;
         grid-template-columns: 100%; 
+        margin-left: 5px;
     }
 
     .VieuxPort
